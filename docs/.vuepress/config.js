@@ -32,12 +32,16 @@ module.exports = {
         items: [
         {
           text: '日常配置', items: [
-            { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
+            { text: '系统重装日记', link: '/pages/0ec974/' },
+            { text: 'IDEA日常配置和操作小结', link: '/pages/63554c/' },
+            { text: '在IDEA中配置Git的Push键', link: '/pages/97b3a1/' },
+            { text: 'Git的安装以及SSH配置', link: '/pages/8cab39/' },
+            { text: 'win11下的Maven安装配置教程', link: '/pages/5e65f3/' },
           ]
         },
         {
           text: 'Bug修复', items: [
-            { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
+            { text: 'Java连接SqlServer错误', link: '/pages/c1d525/' },
           ]
         }
       ]
