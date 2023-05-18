@@ -91,30 +91,31 @@ module.exports = {
           {
             text: '康师傅MySQL高级篇', 
             items: [
-              { text: '第01章_数据库概述', link: '/pages/37fc57/' },
-              { text: '第02章_MySQL环境搭建', link: '/pages/f3f3ab/' },
-              { text: '第03章_基本的SELECT语句', link: '/pages/1e92f0/' },
-              { text: '第04章_运算符', link: '/pages/0cd93d/' },
-              { text: '第05章_排序与分页', link: '/pages/f60350/' },
-              { text: '第06章_多表查询', link: '/pages/79f1c4/' },
-              { text: '第07章_单行函数', link: '/pages/9757a1/' },
-              { text: '第08章_聚合函数', link: '/pages/e8846a/' },
-              { text: '第09章_子查询', link: '/pages/0ececa/' },
-              { text: '第10章_创建和管理表', link: '/pages/667605/' },
-              { text: '第11章_数据处理之增删改', link: '/pages/07f3df/' },
-              { text: '第12章_MySQL数据类型精讲', link: '/pages/b3a365/' },
-              { text: '第13章_约束', link: '/pages/6bfb13/' },
-              { text: '第14章_视图', link: '/pages/745f2d/' },
-              { text: '第15章_存储过程与函数', link: '/pages/8c180e/' },
-              { text: '第16章_变量、流程控制与游标', link: '/pages/566d1d/' },
-              { text: '第17章_触发器', link: '/pages/afb0d0/' },
-              { text: '第18章_MySQL8其它新特性', link: '/pages/15bba8/' }                      
+              { text: '第01章 Linux下MySQL的安装与使用', link: '/pages/80d360/' },
+              { text: '第02章 MySQL的数据目录', link: '/pages/f532a4/' },
+              { text: '第03章 用户与权限管理', link: '/pages/a5fa3c/' },
+              { text: '第04章_逻辑架构', link: '/pages/b462b5/' },
+              { text: '第05章_存储引擎', link: '/pages/a5b6cd/' },
+              { text: '第06章_索引的数据结构', link: '/pages/4eb165/' },
+              { text: '第7章_InnoDB数据存储结构', link: '/pages/85a02c/' },
+              { text: '第8章_索引的创建与设计原则', link: '/pages/badf0e/' },
+              { text: '第09章_性能分析工具的使用', link: '/pages/0e9cf5/' },
+              { text: '第10章_索引优化与查询优化', link: '/pages/baf28a/' },
+              { text: '第11章_数据库的设计规范', link: '/pages/a30800/' },
+              { text: '第12章_数据库其它调优策略', link: '/pages/453178/' },
+              { text: '第13章_事务基础知识', link: '/pages/2f2499/' },
+              { text: '第14章_MySQL事务日志', link: '/pages/e14c2c/' },
+              { text: '第15章_锁', link: '/pages/52fd96/' },
+              { text: '第16章_多版本并发控制', link: '/pages/dc28af/' },
+              { text: '第17章_其他数据库日志', link: '/pages/0aeb1a/' },
+              { text: '第18章_主从复制', link: '/pages/e50c30/' },
+              { text: '第19章_数据库备份与恢复', link: '/pages/92db10/' }                      
             ]
           },
             {
               text: 'MySQL进阶知识', 
               items: [
-
+                { text: 'MySQL里的那些日志们', link: '/pages/ad9574/' }    
               ]
           }
         ]
