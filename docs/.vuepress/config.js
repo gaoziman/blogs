@@ -13,6 +13,7 @@ module.exports = {
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }],
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
@@ -28,7 +29,7 @@ module.exports = {
         link: '/' 
       },
       { 
-        text: '码农日常',  
+        text: '程序日常',  
         items: [
         {
           text: '日常配置', items: [
@@ -50,14 +51,14 @@ module.exports = {
       { 
         text: 'Java基础',  
         items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' }
+          { text: '初始Java基础知识', link: '/pages/882008/' }
         ]
       },
 
       { 
         text: 'Java进阶',  
         items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' }
+          { text: 'Java进阶', link: '/pages/8b1290/' }
         ]
       },
 
@@ -132,17 +133,17 @@ module.exports = {
         items: [
         {
           text: 'MyBatis', items: [
-            { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
+            { text: '框架', link: '/pages/849864/' },
           ]
         },
         {
           text: 'Spring', items: [
-            { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
+            { text: '框架', link: '/pages/849864/' },
           ]
         },
         {
           text: 'SpringMVC', items: [
-            { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
+            { text: '框架', link: '/pages/849864/' },
           ]
         }
       ]
@@ -151,28 +152,35 @@ module.exports = {
       { 
         text: '中间件',  
         items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' }
+          { text: '中间件', link: '/pages/52d5c3/' }
         ]
       },
 
       { 
         text: '微服务',  
         items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' }
+          { text: '微服务', link: '/pages/6fc14f/' }
         ]
       },
 
       { 
         text: '计算机基础',  
         items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' }
+          { text: '计算机基础', link: '/pages/a2a23c/' }
         ]
       },
 
       { 
         text: '项目',  
         items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' }
+          { text: '项目', link: '/pages/61babd/' }
+        ]
+      },
+
+      { 
+        text: '面试题',  
+        items: [
+          { text: '面试题', link: '/pages/964e0e/' }
         ]
       },
 
@@ -243,12 +251,12 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com'
+          link: 'mailto:2942894660@qq.com'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi'
+          link: 'https://github.com/gaoziman'
         },
         {
           iconClass: 'icon-erji',
@@ -290,6 +298,13 @@ module.exports = {
     //     }
     //   ]
     // }],
+
+    [
+      {
+        name: 'custom-plugins',
+        globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      }
+    ],
 
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
