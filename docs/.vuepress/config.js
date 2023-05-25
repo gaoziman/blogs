@@ -299,12 +299,12 @@ module.exports = {
     //   ]
     // }],
 
-    [
-      {
-        name: 'custom-plugins',
-        globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-      }
-    ],
+    // [
+    //   {
+    //     name: 'custom-plugins',
+    //     globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    //   }
+    // ],
 
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
