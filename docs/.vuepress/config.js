@@ -38,6 +38,11 @@ module.exports = {
             { text: '在IDEA中配置Git的Push键', link: '/pages/97b3a1/' },
             { text: 'Git的安装以及SSH配置', link: '/pages/8cab39/' },
             { text: 'win11下的Maven安装配置教程', link: '/pages/5e65f3/' },
+            { text: '基于jmeter完成压测', link: '/pages/bc4cea/' },
+            { text: 'Typora+PicGo+阿里云OSS搭建博客图床', link: '/pages/513ac4/' },
+            { text: 'Git图文使用教程详解(一)', link: '/pages/79620e/' },
+            { text: 'Git图文使用教程详解(二)', link: '/pages/7e3ca6/' },
+            { text: 'Git图文使用教程详解(三)', link: '/pages/c6a5fd/' },
           ]
         },
         {
@@ -51,14 +56,38 @@ module.exports = {
       { 
         text: 'Java基础',  
         items: [
-          { text: '初始Java基础知识', link: '/pages/882008/' }
+          { text: '初始Java基础知识', link: '/pages/882008/' },
+          {
+            text: 'Java集合', 
+            items: [
+              { text: '初始Java基础知识', link: '/pages/882008/' },
+            ]
+          },
+          {
+            text: 'Java知识点', 
+            items: [
+              { text: 'Thymeleaf一篇就够了', link: '/pages/868901/' },
+            ]
+          },
         ]
       },
 
       { 
         text: 'Java进阶',  
         items: [
-          { text: 'Java进阶', link: '/pages/8b1290/' }
+          { text: '泛型就这么简单', link: '/pages/e32cf5/' },
+          {
+            text: 'IO流', 
+            items: [
+              { text: 'Thymeleaf一篇就够了', link: '/pages/868901/' },
+            ]
+          },
+          {
+            text: 'JVM', 
+            items: [
+              { text: 'Java内存区域介绍以及JDK1.8内存变化', link: '/pages/8b1290/' },
+            ]
+          },
         ]
       },
 
@@ -69,6 +98,7 @@ module.exports = {
             text: 'MySQL基础知识', 
             items: [
                 { text: '数据库原理及应用', link: '/pages/6ca3af/' },
+                { text: 'MySQL 8.0 绿色版安装', link: '/pages/460b04/' },
             ]
           },
           {
@@ -129,23 +159,28 @@ module.exports = {
 
 
       { 
-        text: '框架',  
+        text: '框架', 
         items: [
-        {
-          text: 'MyBatis', items: [
-            { text: '框架', link: '/pages/849864/' },
-          ]
-        },
-        {
-          text: 'Spring', items: [
-            { text: '框架', link: '/pages/849864/' },
-          ]
-        },
-        {
-          text: 'SpringMVC', items: [
-            { text: '框架', link: '/pages/849864/' },
-          ]
-        }
+          { text: ' SSM整合完整流程', link: '/pages/b40868/' },
+          {
+            text: 'MyBatis', items: [
+              { text: '框架', link: '/pages/b40868/' },
+            ]
+          },
+          {
+            text: 'Spring', items: [
+              { text: 'Spring5学习笔记——工厂', link: '/pages/e6482d/' },
+              { text: 'Spring5学习笔记——AOP', link: '/pages/99543d/' },
+              { text: 'Spring5学习笔记——持久层整合', link: '/pages/e630fa/' },
+              { text: 'Spring5学习笔记——MVC框架整合', link: '/pages/667215/' },
+              { text: 'Spring5学习笔记——注解编程', link: '/pages/398673/' },
+            ]
+          },
+          {
+            text: 'SpringMVC', items: [
+              { text: '框架', link: '/pages/b40868/' },
+            ]
+          }
       ]
       },
 
@@ -166,14 +201,14 @@ module.exports = {
       { 
         text: '计算机基础',  
         items: [
-          { text: '计算机基础', link: '/pages/a2a23c/' }
+          { text: '程序员必知必会之计算机系统概论', link: '/pages/a2a23c/' }
         ]
       },
 
       { 
         text: '项目',  
         items: [
-          { text: '项目', link: '/pages/61babd/' }
+          { text: '云上办公系统', link: '/pages/61babd/' }
         ]
       },
 
