@@ -56,7 +56,8 @@ module.exports = {
       { 
         text: 'Java基础',  
         items: [
-          { text: '初始Java基础知识', link: '/pages/882008/' },
+          { text: 'Java开发环境的搭建', link: '/pages/882008/' },
+          { text: 'Java基础语法', link: '/pages/7263a2/' },
           {
             text: 'Java集合', 
             items: [
