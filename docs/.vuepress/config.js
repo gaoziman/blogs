@@ -80,7 +80,7 @@ module.exports = {
           {
             text: 'IO流', 
             items: [
-              { text: 'Thymeleaf一篇就够了', link: '/pages/868901/' },
+              { text: '初步认识IO流', link: '/pages/918085/' },
             ]
           },
           {
@@ -195,7 +195,9 @@ module.exports = {
       { 
         text: '微服务',  
         items: [
-          { text: '微服务', link: '/pages/6fc14f/' }
+          { text: '初步了解SpringCloud微服务架构', link: '/pages/8c6be2/' },
+          { text: '认识SpringCloud核心组件', link: '/pages/6fc14f/' },
+          { text: 'Ribbon和 Nacos服务注册中心', link: '/pages/0f8ce6/' }
         ]
       },
 
