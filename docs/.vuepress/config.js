@@ -214,6 +214,12 @@ module.exports = {
           { text: '云上办公系统', link: '/pages/61babd/' }
         ]
       },
+      { 
+        text: '前端知识',  
+        items: [
+          { text: '学习jQuery这一篇就够了', link: '/pages/1d4b65/' }
+        ]
+      },
 
       { 
         text: '面试题',  
