@@ -43,11 +43,18 @@ module.exports = {
             { text: 'Git图文使用教程详解(一)', link: '/pages/79620e/' },
             { text: 'Git图文使用教程详解(二)', link: '/pages/7e3ca6/' },
             { text: 'Git图文使用教程详解(三)', link: '/pages/c6a5fd/' },
+            { text: '带你认识Hutool工具包', link: '/pages/9f9143/' }
           ]
         },
         {
           text: 'Bug修复', items: [
             { text: 'Java连接SqlServer错误', link: '/pages/c1d525/' },
+          ]
+        },
+        {
+          text: '其他学习', items: [
+            { text: '计算机相关常见英语单词,带读音!', link: '/pages/58d18b/' }, 
+            { text: '常用emoji表情包', link: '/pages/a0bf4c/' },
           ]
         }
       ]
@@ -78,7 +85,7 @@ module.exports = {
         items: [
           { text: '泛型就这么简单', link: '/pages/e32cf5/' },
           {
-            text: 'IO流', 
+            text: '流', 
             items: [
               { text: '初步认识IO流', link: '/pages/918085/' },
             ]
@@ -193,11 +200,18 @@ module.exports = {
       },
 
       { 
-        text: '微服务',  
+        text: '微服务',      
         items: [
-          { text: '初步了解SpringCloud微服务架构', link: '/pages/8c6be2/' },
-          { text: '认识SpringCloud核心组件', link: '/pages/6fc14f/' },
-          { text: 'Ribbon和 Nacos服务注册中心', link: '/pages/0f8ce6/' }
+          {
+            text: '初始微服务', items: [
+              { text: '初步了解SpringCloud微服务架构', link: '/pages/8c6be2/' },
+              { text: '认识SpringCloud核心组件', link: '/pages/6fc14f/' },
+              { text: 'Ribbon和 Nacos服务注册中心', link: '/pages/0f8ce6/' },
+              { text: '微服务远程调用openFeign整合', link: '/pages/59a269/' }
+            ]
+          },
+          
+
         ]
       },
 
