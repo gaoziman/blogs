@@ -222,10 +222,16 @@ module.exports = {
         ]
       },
 
+      // { 
+      //   text: '项目',  
+      //   items: [
+      //     { text: '云上办公系统', link: '/pages/61babd/' }
+      //   ]
+      // },
       { 
-        text: '项目',  
+        text: 'Linux',  
         items: [
-          { text: '云上办公系统', link: '/pages/61babd/' }
+          { text: 'Linux命令笔记', link: '/pages/5316bc/' }
         ]
       },
       { 
