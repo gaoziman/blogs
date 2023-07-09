@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>第13章_约束 | Cisyam</title>
+    <meta name="generator" content="VuePress 1.9.2">
+    <link rel="icon" href="/blogs/img/favicon.ico">
+    <link rel="stylesheet" href="/blogs//at.alicdn.com/t/font_3114978_qe0b39no76.css">
+    <script src="https://cdn.wwads.cn/js/makemoney.js" type="text/javascript"></script>
+    <meta name="description" content="一个基于VuePress的 知识管理&amp;博客 主题">
+    <meta name="keywords" content="vuepress,theme,blog,vdoing">
+    <meta name="theme-color" content="#11a8cd">
+    <meta name="wwads-cn-verify" content="6c4b761a28b734fe93831e3fb400ce87">
+    
+    <link rel="preload" href="/blogs/assets/css/0.styles.d190f907.css" as="style"><link rel="preload" href="/blogs/assets/js/app.6703720a.js" as="script"><link rel="preload" href="/blogs/assets/js/2.2891cb31.js" as="script"><link rel="preload" href="/blogs/assets/js/41.6e456626.js" as="script"><link rel="prefetch" href="/blogs/assets/js/10.29af8a7f.js"><link rel="prefetch" href="/blogs/assets/js/100.c7ec5c9d.js"><link rel="prefetch" href="/blogs/assets/js/11.bdeeba6d.js"><link rel="prefetch" href="/blogs/assets/js/12.713dd16b.js"><link rel="prefetch" href="/blogs/assets/js/13.59a174b0.js"><link rel="prefetch" href="/blogs/assets/js/14.68a58203.js"><link rel="prefetch" href="/blogs/assets/js/15.82a1fdde.js"><link rel="prefetch" href="/blogs/assets/js/16.9c54c3e4.js"><link rel="prefetch" href="/blogs/assets/js/17.11ba4e45.js"><link rel="prefetch" href="/blogs/assets/js/18.2818cf53.js"><link rel="prefetch" href="/blogs/assets/js/19.96755560.js"><link rel="prefetch" href="/blogs/assets/js/20.7481fcc2.js"><link rel="prefetch" href="/blogs/assets/js/21.907b70d0.js"><link rel="prefetch" href="/blogs/assets/js/22.a166ad24.js"><link rel="prefetch" href="/blogs/assets/js/23.77d2dca0.js"><link rel="prefetch" href="/blogs/assets/js/24.aa87f4c6.js"><link rel="prefetch" href="/blogs/assets/js/25.dad97827.js"><link rel="prefetch" href="/blogs/assets/js/26.bb52f77c.js"><link rel="prefetch" href="/blogs/assets/js/27.9e1ea639.js"><link rel="prefetch" href="/blogs/assets/js/28.ba119082.js"><link rel="prefetch" href="/blogs/assets/js/29.18832ed6.js"><link rel="prefetch" href="/blogs/assets/js/3.fefeb4f4.js"><link rel="prefetch" href="/blogs/assets/js/30.b3c42b31.js"><link rel="prefetch" href="/blogs/assets/js/31.4635ac31.js"><link rel="prefetch" href="/blogs/assets/js/32.d2b68837.js"><link rel="prefetch" href="/blogs/assets/js/33.f7b79f8b.js"><link rel="prefetch" href="/blogs/assets/js/34.ce01b9ce.js"><link rel="prefetch" href="/blogs/assets/js/35.09a87cc8.js"><link rel="prefetch" href="/blogs/assets/js/36.76cf8512.js"><link rel="prefetch" href="/blogs/assets/js/37.d0062b5b.js"><link rel="prefetch" href="/blogs/assets/js/38.7f84a2f0.js"><link rel="prefetch" href="/blogs/assets/js/39.e2188bfb.js"><link rel="prefetch" href="/blogs/assets/js/4.b9356ecc.js"><link rel="prefetch" href="/blogs/assets/js/40.c5791be3.js"><link rel="prefetch" href="/blogs/assets/js/42.f177def6.js"><link rel="prefetch" href="/blogs/assets/js/43.d522573e.js"><link rel="prefetch" href="/blogs/assets/js/44.6add112a.js"><link rel="prefetch" href="/blogs/assets/js/45.5f2862b3.js"><link rel="prefetch" href="/blogs/assets/js/46.bbdad8ea.js"><link rel="prefetch" href="/blogs/assets/js/47.4b8eccad.js"><link rel="prefetch" href="/blogs/assets/js/48.790c3f48.js"><link rel="prefetch" href="/blogs/assets/js/49.7a6b72f8.js"><link rel="prefetch" href="/blogs/assets/js/5.dbc14407.js"><link rel="prefetch" href="/blogs/assets/js/50.1d07348b.js"><link rel="prefetch" href="/blogs/assets/js/51.baf090ad.js"><link rel="prefetch" href="/blogs/assets/js/52.aa82caa4.js"><link rel="prefetch" href="/blogs/assets/js/53.54b14a71.js"><link rel="prefetch" href="/blogs/assets/js/54.1c49a9fe.js"><link rel="prefetch" href="/blogs/assets/js/55.e745f470.js"><link rel="prefetch" href="/blogs/assets/js/56.66db2bce.js"><link rel="prefetch" href="/blogs/assets/js/57.cfbf7fad.js"><link rel="prefetch" href="/blogs/assets/js/58.7c34f72a.js"><link rel="prefetch" href="/blogs/assets/js/59.2411d34a.js"><link rel="prefetch" href="/blogs/assets/js/6.8e27846d.js"><link rel="prefetch" href="/blogs/assets/js/60.bd4c3a01.js"><link rel="prefetch" href="/blogs/assets/js/61.376a94a9.js"><link rel="prefetch" href="/blogs/assets/js/62.e1ed876a.js"><link rel="prefetch" href="/blogs/assets/js/63.519e802c.js"><link rel="prefetch" href="/blogs/assets/js/64.d1de0951.js"><link rel="prefetch" href="/blogs/assets/js/65.68804e09.js"><link rel="prefetch" href="/blogs/assets/js/66.fa157ac3.js"><link rel="prefetch" href="/blogs/assets/js/67.3ac0f5f0.js"><link rel="prefetch" href="/blogs/assets/js/68.418729c4.js"><link rel="prefetch" href="/blogs/assets/js/69.27b1a4cd.js"><link rel="prefetch" href="/blogs/assets/js/7.8503034e.js"><link rel="prefetch" href="/blogs/assets/js/70.ccbe6f1e.js"><link rel="prefetch" href="/blogs/assets/js/71.9bd4782d.js"><link rel="prefetch" href="/blogs/assets/js/72.cd2999cc.js"><link rel="prefetch" href="/blogs/assets/js/73.79fc8d67.js"><link rel="prefetch" href="/blogs/assets/js/74.19768d7a.js"><link rel="prefetch" href="/blogs/assets/js/75.61498db4.js"><link rel="prefetch" href="/blogs/assets/js/76.2c210d98.js"><link rel="prefetch" href="/blogs/assets/js/77.673ebfb2.js"><link rel="prefetch" href="/blogs/assets/js/78.efeb93e2.js"><link rel="prefetch" href="/blogs/assets/js/79.892e6e6f.js"><link rel="prefetch" href="/blogs/assets/js/8.1477cb30.js"><link rel="prefetch" href="/blogs/assets/js/80.cc1efe6f.js"><link rel="prefetch" href="/blogs/assets/js/81.9029edfe.js"><link rel="prefetch" href="/blogs/assets/js/82.ebfed7ad.js"><link rel="prefetch" href="/blogs/assets/js/83.8c745cc8.js"><link rel="prefetch" href="/blogs/assets/js/84.2d5bf3dd.js"><link rel="prefetch" href="/blogs/assets/js/85.655b076a.js"><link rel="prefetch" href="/blogs/assets/js/86.0b926ace.js"><link rel="prefetch" href="/blogs/assets/js/87.39251ad6.js"><link rel="prefetch" href="/blogs/assets/js/88.9031ffae.js"><link rel="prefetch" href="/blogs/assets/js/89.9a2bbb31.js"><link rel="prefetch" href="/blogs/assets/js/9.c71f6b55.js"><link rel="prefetch" href="/blogs/assets/js/90.3fabd32f.js"><link rel="prefetch" href="/blogs/assets/js/91.51ad2e66.js"><link rel="prefetch" href="/blogs/assets/js/92.dff42051.js"><link rel="prefetch" href="/blogs/assets/js/93.4f7c903c.js"><link rel="prefetch" href="/blogs/assets/js/94.7b8dc99c.js"><link rel="prefetch" href="/blogs/assets/js/95.5b05ce73.js"><link rel="prefetch" href="/blogs/assets/js/96.c252c42c.js"><link rel="prefetch" href="/blogs/assets/js/97.29426949.js"><link rel="prefetch" href="/blogs/assets/js/98.b857e1ec.js"><link rel="prefetch" href="/blogs/assets/js/99.52a327c1.js">
+    <link rel="stylesheet" href="/blogs/assets/css/0.styles.d190f907.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blogs/" class="home-link router-link-active"><img src="/blogs/img/logo.png" alt="Cisyam" class="logo"> <span class="site-name can-hide">Cisyam</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blogs/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="程序日常" class="dropdown-title"><!----> <span class="title" style="display:;">程序日常</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>日常配置</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/0ec974/" class="nav-link">系统重装日记</a></li><li class="dropdown-subitem"><a href="/blogs/pages/63554c/" class="nav-link">IDEA日常配置和操作小结</a></li><li class="dropdown-subitem"><a href="/blogs/pages/97b3a1/" class="nav-link">在IDEA中配置Git的Push键</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8cab39/" class="nav-link">Git的安装以及SSH配置</a></li><li class="dropdown-subitem"><a href="/blogs/pages/5e65f3/" class="nav-link">win11下的Maven安装配置教程</a></li><li class="dropdown-subitem"><a href="/blogs/pages/bc4cea/" class="nav-link">基于jmeter完成压测</a></li><li class="dropdown-subitem"><a href="/blogs/pages/513ac4/" class="nav-link">Typora+PicGo+阿里云OSS搭建博客图床</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79620e/" class="nav-link">Git图文使用教程详解(一)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/7e3ca6/" class="nav-link">Git图文使用教程详解(二)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/c6a5fd/" class="nav-link">Git图文使用教程详解(三)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9f9143/" class="nav-link">带你认识Hutool工具包</a></li></ul></li><li class="dropdown-item"><h4>Bug修复</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/c1d525/" class="nav-link">Java连接SqlServer错误</a></li></ul></li><li class="dropdown-item"><h4>其他学习</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/58d18b/" class="nav-link">计算机相关常见英语单词,带读音!</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a0bf4c/" class="nav-link">常用emoji表情包</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java基础" class="dropdown-title"><!----> <span class="title" style="display:;">Java基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/882008/" class="nav-link">Java开发环境的搭建</a></li><li class="dropdown-item"><!----> <a href="/blogs/pages/7263a2/" class="nav-link">Java基础语法</a></li><li class="dropdown-item"><h4>Java集合</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/882008/" class="nav-link">初始Java基础知识</a></li></ul></li><li class="dropdown-item"><h4>Java知识点</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/868901/" class="nav-link">Thymeleaf一篇就够了</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java进阶" class="dropdown-title"><!----> <span class="title" style="display:;">Java进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/e32cf5/" class="nav-link">泛型就这么简单</a></li><li class="dropdown-item"><h4>流</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/918085/" class="nav-link">初步认识IO流</a></li></ul></li><li class="dropdown-item"><h4>JVM</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8b1290/" class="nav-link">Java内存区域介绍以及JDK1.8内存变化</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><!----> <span class="title" style="display:;">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>MySQL基础知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/6ca3af/" class="nav-link">数据库原理及应用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/460b04/" class="nav-link">MySQL 8.0 绿色版安装</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL基础篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/37fc57/" class="nav-link">第01章_数据库概述</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f3f3ab/" class="nav-link">第02章_MySQL环境搭建</a></li><li class="dropdown-subitem"><a href="/blogs/pages/1e92f0/" class="nav-link">第03章_基本的SELECT语句</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0cd93d/" class="nav-link">第04章_运算符</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f60350/" class="nav-link">第05章_排序与分页</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79f1c4/" class="nav-link">第06章_多表查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9757a1/" class="nav-link">第07章_单行函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e8846a/" class="nav-link">第08章_聚合函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0ececa/" class="nav-link">第09章_子查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667605/" class="nav-link">第10章_创建和管理表</a></li><li class="dropdown-subitem"><a href="/blogs/pages/07f3df/" class="nav-link">第11章_数据处理之增删改</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b3a365/" class="nav-link">第12章_MySQL数据类型精讲</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6bfb13/" aria-current="page" class="nav-link router-link-exact-active router-link-active">第13章_约束</a></li><li class="dropdown-subitem"><a href="/blogs/pages/745f2d/" class="nav-link">第14章_视图</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8c180e/" class="nav-link">第15章_存储过程与函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/566d1d/" class="nav-link">第16章_变量、流程控制与游标</a></li><li class="dropdown-subitem"><a href="/blogs/pages/afb0d0/" class="nav-link">第17章_触发器</a></li><li class="dropdown-subitem"><a href="/blogs/pages/15bba8/" class="nav-link">第18章_MySQL8其它新特性</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL高级篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/80d360/" class="nav-link">第01章 Linux下MySQL的安装与使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f532a4/" class="nav-link">第02章 MySQL的数据目录</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5fa3c/" class="nav-link">第03章 用户与权限管理</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b462b5/" class="nav-link">第04章_逻辑架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5b6cd/" class="nav-link">第05章_存储引擎</a></li><li class="dropdown-subitem"><a href="/blogs/pages/4eb165/" class="nav-link">第06章_索引的数据结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/85a02c/" class="nav-link">第7章_InnoDB数据存储结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/badf0e/" class="nav-link">第8章_索引的创建与设计原则</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0e9cf5/" class="nav-link">第09章_性能分析工具的使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/baf28a/" class="nav-link">第10章_索引优化与查询优化</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a30800/" class="nav-link">第11章_数据库的设计规范</a></li><li class="dropdown-subitem"><a href="/blogs/pages/453178/" class="nav-link">第12章_数据库其它调优策略</a></li><li class="dropdown-subitem"><a href="/blogs/pages/2f2499/" class="nav-link">第13章_事务基础知识</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e14c2c/" class="nav-link">第14章_MySQL事务日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/52fd96/" class="nav-link">第15章_锁</a></li><li class="dropdown-subitem"><a href="/blogs/pages/dc28af/" class="nav-link">第16章_多版本并发控制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0aeb1a/" class="nav-link">第17章_其他数据库日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e50c30/" class="nav-link">第18章_主从复制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/92db10/" class="nav-link">第19章_数据库备份与恢复</a></li></ul></li><li class="dropdown-item"><h4>MySQL进阶知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/ad9574/" class="nav-link">MySQL里的那些日志们</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><!----> <span class="title" style="display:;">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/b40868/" class="nav-link"> SSM整合完整流程</a></li><li class="dropdown-item"><h4>MyBatis</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li><li class="dropdown-item"><h4>Spring</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/e6482d/" class="nav-link">Spring5学习笔记——工厂</a></li><li class="dropdown-subitem"><a href="/blogs/pages/99543d/" class="nav-link">Spring5学习笔记——AOP</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e630fa/" class="nav-link">Spring5学习笔记——持久层整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667215/" class="nav-link">Spring5学习笔记——MVC框架整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/398673/" class="nav-link">Spring5学习笔记——注解编程</a></li></ul></li><li class="dropdown-item"><h4>SpringMVC</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="中间件" class="dropdown-title"><!----> <span class="title" style="display:;">中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/52d5c3/" class="nav-link">中间件</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="微服务" class="dropdown-title"><!----> <span class="title" style="display:;">微服务</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>初始微服务</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8c6be2/" class="nav-link">初步了解SpringCloud微服务架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6fc14f/" class="nav-link">认识SpringCloud核心组件</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0f8ce6/" class="nav-link">Ribbon和 Nacos服务注册中心</a></li><li class="dropdown-subitem"><a href="/blogs/pages/59a269/" class="nav-link">微服务远程调用openFeign整合</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机基础" class="dropdown-title"><!----> <span class="title" style="display:;">计算机基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/a2a23c/" class="nav-link">程序员必知必会之计算机系统概论</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Linux" class="dropdown-title"><!----> <span class="title" style="display:;">Linux</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/5316bc/" class="nav-link">Linux命令笔记</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试题" class="dropdown-title"><!----> <span class="title" style="display:;">面试题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/964e0e/" class="nav-link">面试题</a></li></ul></div></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/blogs/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="程序日常" class="dropdown-title"><!----> <span class="title" style="display:;">程序日常</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>日常配置</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/0ec974/" class="nav-link">系统重装日记</a></li><li class="dropdown-subitem"><a href="/blogs/pages/63554c/" class="nav-link">IDEA日常配置和操作小结</a></li><li class="dropdown-subitem"><a href="/blogs/pages/97b3a1/" class="nav-link">在IDEA中配置Git的Push键</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8cab39/" class="nav-link">Git的安装以及SSH配置</a></li><li class="dropdown-subitem"><a href="/blogs/pages/5e65f3/" class="nav-link">win11下的Maven安装配置教程</a></li><li class="dropdown-subitem"><a href="/blogs/pages/bc4cea/" class="nav-link">基于jmeter完成压测</a></li><li class="dropdown-subitem"><a href="/blogs/pages/513ac4/" class="nav-link">Typora+PicGo+阿里云OSS搭建博客图床</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79620e/" class="nav-link">Git图文使用教程详解(一)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/7e3ca6/" class="nav-link">Git图文使用教程详解(二)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/c6a5fd/" class="nav-link">Git图文使用教程详解(三)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9f9143/" class="nav-link">带你认识Hutool工具包</a></li></ul></li><li class="dropdown-item"><h4>Bug修复</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/c1d525/" class="nav-link">Java连接SqlServer错误</a></li></ul></li><li class="dropdown-item"><h4>其他学习</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/58d18b/" class="nav-link">计算机相关常见英语单词,带读音!</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a0bf4c/" class="nav-link">常用emoji表情包</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java基础" class="dropdown-title"><!----> <span class="title" style="display:;">Java基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/882008/" class="nav-link">Java开发环境的搭建</a></li><li class="dropdown-item"><!----> <a href="/blogs/pages/7263a2/" class="nav-link">Java基础语法</a></li><li class="dropdown-item"><h4>Java集合</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/882008/" class="nav-link">初始Java基础知识</a></li></ul></li><li class="dropdown-item"><h4>Java知识点</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/868901/" class="nav-link">Thymeleaf一篇就够了</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java进阶" class="dropdown-title"><!----> <span class="title" style="display:;">Java进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/e32cf5/" class="nav-link">泛型就这么简单</a></li><li class="dropdown-item"><h4>流</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/918085/" class="nav-link">初步认识IO流</a></li></ul></li><li class="dropdown-item"><h4>JVM</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8b1290/" class="nav-link">Java内存区域介绍以及JDK1.8内存变化</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><!----> <span class="title" style="display:;">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>MySQL基础知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/6ca3af/" class="nav-link">数据库原理及应用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/460b04/" class="nav-link">MySQL 8.0 绿色版安装</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL基础篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/37fc57/" class="nav-link">第01章_数据库概述</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f3f3ab/" class="nav-link">第02章_MySQL环境搭建</a></li><li class="dropdown-subitem"><a href="/blogs/pages/1e92f0/" class="nav-link">第03章_基本的SELECT语句</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0cd93d/" class="nav-link">第04章_运算符</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f60350/" class="nav-link">第05章_排序与分页</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79f1c4/" class="nav-link">第06章_多表查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9757a1/" class="nav-link">第07章_单行函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e8846a/" class="nav-link">第08章_聚合函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0ececa/" class="nav-link">第09章_子查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667605/" class="nav-link">第10章_创建和管理表</a></li><li class="dropdown-subitem"><a href="/blogs/pages/07f3df/" class="nav-link">第11章_数据处理之增删改</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b3a365/" class="nav-link">第12章_MySQL数据类型精讲</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6bfb13/" aria-current="page" class="nav-link router-link-exact-active router-link-active">第13章_约束</a></li><li class="dropdown-subitem"><a href="/blogs/pages/745f2d/" class="nav-link">第14章_视图</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8c180e/" class="nav-link">第15章_存储过程与函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/566d1d/" class="nav-link">第16章_变量、流程控制与游标</a></li><li class="dropdown-subitem"><a href="/blogs/pages/afb0d0/" class="nav-link">第17章_触发器</a></li><li class="dropdown-subitem"><a href="/blogs/pages/15bba8/" class="nav-link">第18章_MySQL8其它新特性</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL高级篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/80d360/" class="nav-link">第01章 Linux下MySQL的安装与使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f532a4/" class="nav-link">第02章 MySQL的数据目录</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5fa3c/" class="nav-link">第03章 用户与权限管理</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b462b5/" class="nav-link">第04章_逻辑架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5b6cd/" class="nav-link">第05章_存储引擎</a></li><li class="dropdown-subitem"><a href="/blogs/pages/4eb165/" class="nav-link">第06章_索引的数据结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/85a02c/" class="nav-link">第7章_InnoDB数据存储结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/badf0e/" class="nav-link">第8章_索引的创建与设计原则</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0e9cf5/" class="nav-link">第09章_性能分析工具的使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/baf28a/" class="nav-link">第10章_索引优化与查询优化</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a30800/" class="nav-link">第11章_数据库的设计规范</a></li><li class="dropdown-subitem"><a href="/blogs/pages/453178/" class="nav-link">第12章_数据库其它调优策略</a></li><li class="dropdown-subitem"><a href="/blogs/pages/2f2499/" class="nav-link">第13章_事务基础知识</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e14c2c/" class="nav-link">第14章_MySQL事务日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/52fd96/" class="nav-link">第15章_锁</a></li><li class="dropdown-subitem"><a href="/blogs/pages/dc28af/" class="nav-link">第16章_多版本并发控制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0aeb1a/" class="nav-link">第17章_其他数据库日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e50c30/" class="nav-link">第18章_主从复制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/92db10/" class="nav-link">第19章_数据库备份与恢复</a></li></ul></li><li class="dropdown-item"><h4>MySQL进阶知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/ad9574/" class="nav-link">MySQL里的那些日志们</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><!----> <span class="title" style="display:;">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/b40868/" class="nav-link"> SSM整合完整流程</a></li><li class="dropdown-item"><h4>MyBatis</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li><li class="dropdown-item"><h4>Spring</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/e6482d/" class="nav-link">Spring5学习笔记——工厂</a></li><li class="dropdown-subitem"><a href="/blogs/pages/99543d/" class="nav-link">Spring5学习笔记——AOP</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e630fa/" class="nav-link">Spring5学习笔记——持久层整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667215/" class="nav-link">Spring5学习笔记——MVC框架整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/398673/" class="nav-link">Spring5学习笔记——注解编程</a></li></ul></li><li class="dropdown-item"><h4>SpringMVC</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="中间件" class="dropdown-title"><!----> <span class="title" style="display:;">中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/52d5c3/" class="nav-link">中间件</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="微服务" class="dropdown-title"><!----> <span class="title" style="display:;">微服务</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>初始微服务</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8c6be2/" class="nav-link">初步了解SpringCloud微服务架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6fc14f/" class="nav-link">认识SpringCloud核心组件</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0f8ce6/" class="nav-link">Ribbon和 Nacos服务注册中心</a></li><li class="dropdown-subitem"><a href="/blogs/pages/59a269/" class="nav-link">微服务远程调用openFeign整合</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机基础" class="dropdown-title"><!----> <span class="title" style="display:;">计算机基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/a2a23c/" class="nav-link">程序员必知必会之计算机系统概论</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Linux" class="dropdown-title"><!----> <span class="title" style="display:;">Linux</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/5316bc/" class="nav-link">Linux命令笔记</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试题" class="dropdown-title"><!----> <span class="title" style="display:;">面试题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/964e0e/" class="nav-link">面试题</a></li></ul></div></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav> <div class="sidebar-slot sidebar-slot-top">
+  <a href="http://apifox.cn/a103xugaoyi" target="_blank">
+    <img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/431669861564_.2470ykdcpbds.jpg" alt="npm" class="no-zoom" style="width: 100%;border-radius: 2px;">
+    <p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>
+  </a></div> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>MySQL基础知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/6ca3af/" class="sidebar-link">数据库原理及应用</a></li><li><a href="/blogs/pages/460b04/" class="sidebar-link">MySQL 8.0 绿色版安装</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>康师傅MySQL</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading open"><span>基础篇</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/37fc57/" class="sidebar-link">第01章_数据库概述</a></li><li><a href="/blogs/pages/f3f3ab/" class="sidebar-link">第02章_MySQL环境搭建</a></li><li><a href="/blogs/pages/1e92f0/" class="sidebar-link">第03章_基本的SELECT语句</a></li><li><a href="/blogs/pages/0cd93d/" class="sidebar-link">第04章_运算符</a></li><li><a href="/blogs/pages/f60350/" class="sidebar-link">第05章_排序与分页</a></li><li><a href="/blogs/pages/79f1c4/" class="sidebar-link">第06章_多表查询</a></li><li><a href="/blogs/pages/9757a1/" class="sidebar-link">第07章_单行函数</a></li><li><a href="/blogs/pages/e8846a/" class="sidebar-link">第08章_聚合函数</a></li><li><a href="/blogs/pages/0ececa/" class="sidebar-link">第09章_子查询</a></li><li><a href="/blogs/pages/667605/" class="sidebar-link">第10章_创建和管理表</a></li><li><a href="/blogs/pages/07f3df/" class="sidebar-link">第11章_数据处理之增删改</a></li><li><a href="/blogs/pages/b3a365/" class="sidebar-link">第12章_MySQL数据类型精讲</a></li><li><a href="/blogs/pages/6bfb13/" aria-current="page" class="active sidebar-link">第13章_约束</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_1-约束-constraint-概述" class="sidebar-link">1. 约束(constraint)概述</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_1-1-为什么需要约束" class="sidebar-link">1.1 为什么需要约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_1-2-什么是约束" class="sidebar-link">1.2 什么是约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_1-3-约束的分类" class="sidebar-link">1.3 约束的分类</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_2-非空约束" class="sidebar-link">2. 非空约束</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_2-1-作用" class="sidebar-link">2.1 作用</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_2-2-关键字" class="sidebar-link">2.2 关键字</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_2-3-特点" class="sidebar-link">2.3 特点</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_2-4-添加非空约束" class="sidebar-link">2.4 添加非空约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_2-5-删除非空约束" class="sidebar-link">2.5 删除非空约束</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_3-唯一性约束" class="sidebar-link">3. 唯一性约束</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_3-1-作用" class="sidebar-link">3.1 作用</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_3-2-关键字" class="sidebar-link">3.2 关键字</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_3-3-特点" class="sidebar-link">3.3 特点</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_3-4-添加唯一约束" class="sidebar-link">3.4 添加唯一约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_3-5-关于复合唯一约束" class="sidebar-link">3.5 关于复合唯一约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_3-5-删除唯一约束" class="sidebar-link">3.5 删除唯一约束</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_4-primary-key-约束" class="sidebar-link">4. PRIMARY KEY 约束</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_4-1-作用" class="sidebar-link">4.1 作用</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_4-2-关键字" class="sidebar-link">4.2 关键字</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_4-3-特点" class="sidebar-link">4.3 特点</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_4-4-添加主键约束" class="sidebar-link">4.4 添加主键约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_4-5-关于复合主键" class="sidebar-link">4.5 关于复合主键</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_4-6-删除主键约束" class="sidebar-link">4.6 删除主键约束</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_5-自增列-auto-increment" class="sidebar-link">5. 自增列：AUTO_INCREMENT</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_5-1-作用" class="sidebar-link">5.1 作用</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_5-2-关键字" class="sidebar-link">5.2 关键字</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_5-3-特点和要求" class="sidebar-link">5.3 特点和要求</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_5-4-如何指定自增约束" class="sidebar-link">5.4 如何指定自增约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_5-5-如何删除自增约束" class="sidebar-link">5.5 如何删除自增约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_5-6-mysql-8-0新特性-自增变量的持久化" class="sidebar-link">5.6 MySQL 8.0新特性—自增变量的持久化</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_6-foreign-key-约束" class="sidebar-link">6. FOREIGN KEY 约束</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-1-作用" class="sidebar-link">6.1 作用</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-2-关键字" class="sidebar-link">6.2 关键字</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-3-主表和从表-父表和子表" class="sidebar-link">6.3 主表和从表/父表和子表</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-4-特点" class="sidebar-link">6.4 特点</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-5-添加外键约束" class="sidebar-link">6.5 添加外键约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-6-演示问题" class="sidebar-link">6.6 演示问题</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-7-约束等级" class="sidebar-link">6.7 约束等级</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-8-删除外键约束" class="sidebar-link">6.8 删除外键约束</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-9-开发场景" class="sidebar-link">6.9 开发场景</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_6-10-阿里开发规范" class="sidebar-link">6.10 阿里开发规范</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_7-check-约束" class="sidebar-link">7. CHECK 约束</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_7-1-作用" class="sidebar-link">7.1 作用</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_2、关键字" class="sidebar-link">2、关键字</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_3、说明-mysql-5-7-不支持" class="sidebar-link">3、说明：MySQL 5.7 不支持</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_8-default约束" class="sidebar-link">8. DEFAULT约束</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_8-1-作用" class="sidebar-link">8.1 作用</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_8-2-关键字" class="sidebar-link">8.2 关键字</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_8-3-如何给字段加默认值" class="sidebar-link">8.3 如何给字段加默认值</a></li><li class="sidebar-sub-header level3"><a href="/blogs/pages/6bfb13/#_8-4-如何删除默认值约束" class="sidebar-link">8.4 如何删除默认值约束</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/6bfb13/#_9-面试" class="sidebar-link">9. 面试</a></li></ul></li><li><a href="/blogs/pages/745f2d/" class="sidebar-link">第14章_视图</a></li><li><a href="/blogs/pages/8c180e/" class="sidebar-link">第15章_存储过程与函数</a></li><li><a href="/blogs/pages/566d1d/" class="sidebar-link">第16章_变量、流程控制与游标</a></li><li><a href="/blogs/pages/afb0d0/" class="sidebar-link">第17章_触发器</a></li><li><a href="/blogs/pages/15bba8/" class="sidebar-link">第18章_MySQL8其它新特性</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>高级篇</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/80d360/" class="sidebar-link">第01章 Linux下MySQL的安装与使用</a></li><li><a href="/blogs/pages/f532a4/" class="sidebar-link">第02章 MySQL的数据目录</a></li><li><a href="/blogs/pages/a5fa3c/" class="sidebar-link">第03章 用户与权限管理</a></li><li><a href="/blogs/pages/b462b5/" class="sidebar-link">第04章_逻辑架构</a></li><li><a href="/blogs/pages/a5b6cd/" class="sidebar-link">第05章_存储引擎</a></li><li><a href="/blogs/pages/4eb165/" class="sidebar-link">第06章_索引的数据结构</a></li><li><a href="/blogs/pages/85a02c/" class="sidebar-link">第7章_InnoDB数据存储结构</a></li><li><a href="/blogs/pages/badf0e/" class="sidebar-link">第8章_索引的创建与设计原则</a></li><li><a href="/blogs/pages/0e9cf5/" class="sidebar-link">第09章_性能分析工具的使用</a></li><li><a href="/blogs/pages/baf28a/" class="sidebar-link">第10章_索引优化与查询优化</a></li><li><a href="/blogs/pages/a30800/" class="sidebar-link">第11章_数据库的设计规范</a></li><li><a href="/blogs/pages/453178/" class="sidebar-link">第12章_数据库其它调优策略</a></li><li><a href="/blogs/pages/2f2499/" class="sidebar-link">第13章_事务基础知识</a></li><li><a href="/blogs/pages/e14c2c/" class="sidebar-link">第14章_MySQL事务日志</a></li><li><a href="/blogs/pages/52fd96/" class="sidebar-link">第15章_锁</a></li><li><a href="/blogs/pages/dc28af/" class="sidebar-link">第16章_多版本并发控制</a></li><li><a href="/blogs/pages/0aeb1a/" class="sidebar-link">第17章_其他数据库日志</a></li><li><a href="/blogs/pages/e50c30/" class="sidebar-link">第18章_主从复制</a></li><li><a href="/blogs/pages/92db10/" class="sidebar-link">第19章_数据库备份与恢复</a></li></ul></section></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>MySQL进阶知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/ad9574/" class="sidebar-link">MySQL里的那些日志们</a></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/blogs/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><span data-v-06225672>数据库</span></li><li data-v-06225672><span data-v-06225672>康师傅MySQL</span></li><li data-v-06225672><span data-v-06225672>基础篇</span></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/gaoziman" target="_blank" title="作者" class="beLink" data-v-06225672>Cisyam</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2023-05-18</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABKFJREFUSA3tVl1oFVcQnrMbrak3QUgkya1akpJYcrUtIqW1JvFBE9LiQ5v6JmJpolbMg32rVrhgoYK0QiMY6i9Y6EMaW5D+xFJaTYItIuK2Kr3+BJNwkxBj05sQY3b3nM6cs2dv9t7NT/vQJw/sndk5M/PNzJkzewGerP+pAmy+ON8lLzUJgA8ZYxYIYZmGYRnctDaWvJJAmTtfP1pvXsBCCPP8QFcCaRkZYACgDZFO4stNIcBCajEOlmmC9XpJ9bAGCaPaPmzPl32dvLSVu3BWCTQs0XQQ6g0DYgwLIoAZbBCdW/i+781o1VVlm/410mw4h06Y7bIPHNyWDyL4FHkX03Q8SrzNhZTZriieckWt7cL6MM85YcLpsi/7O9/iXFT6MswI0DmmpkSaJ0qLxFIm3+i1THHB3zmBH3PYx9CcykcLOeQVVa7QtdxTgQgEleX2AjHYfwA+2ddV77ruGoJUbhGDI09YSNXyMpUt5ylOzxgbUmtOp7NmbNt8v3arjTBfYELmLUV+M+nSawNNAUqpT3ClJWg5I3BLT+cGW/DXNGCa6tx1aakCGEigArTn4TDIPdrXXYKCZNrHLMCOEPvHBlLQ99s9eHB7EB6NTki73CVPQ2F5MSx/uRQixfmq7rK0wYD8w8E905bnPDfwoWs/rfv93NWN/ZfvwsLIU7A09gxECyISeGJkHAau98L97tuw7NXnoPyNF8FcYGLGKsOs0mN3OEyec9esGW/ZEl945dTP34wlR2FZVQWU1q0Cw8Tr7p+hgLLNL0FPxx/Q35mA8aEUrH6nCgwEl0tn7wUiZYJnNRh6DK4UH/k0lfyrsBKdPVv/AriGIQcEDQZ65LBAGe2Rzui9Ybjz7XUppz1/uKBbyVPGkN3ZAeC6hr0x7Nr38N5+EqkoOm17xpoqR9ohQF55ERSvr4Dkr3chNfC3DMzGJlNBElW8w9nsGQvhNGIzDkXzCg8cLK951xHsFBlTJspJNi3ZFIMF2AeDV3q8DNOB+YHi6QTrChDIWDBRi5U5f+ZMfJLu3ccrqxtdxk4SKH336LFxSmkqefwU5T8fhdSdQf9IVKD6aNiwI/hnmcAZ91isYMJIaCUCx9W098+LgruikeTqzqqxKPUwqJyCPJiyemVVZBOijDGjD38Os0jOiSPL1z3SPjXNANbiNPXAdzTfukjjuknNBbyz3nwgTd3AVFqUJ5hpHlq9MveLnWwttUfoygBmvVjuikxND3znrhsELnZk7k+OjIGxeNEkomyLVta0xxn+HZhjBc4YZ/AFjHjz9u3xRZl2BN4aq9nFwWh16IrQ1aHHEd3j1+4/dB9OtH4e29A2H1DyHQRmOSfQZ1Fy7MHBTGB6J/Djq6p3OxyO2cB+4Car7v/o3GXgfAkj23+x9ID1Teoamo/SXcbvSf2PX7Vc8DdCmE1vN9di+32P9/5YR3vLnhCVGUWBjEkr3yh4H8v9CzmsbdhzOKzsJKM90iFdaTMjRPhGVsakRvOaRidljo6H6G7j+ctrJpsP+4COhDIl0La2+FS4+5mlocBaXY5QnGZysIBYoeSsl5qQzrSj/cgNrfuEzlWBfwA+EjrZyWUvpAAAAABJRU5ErkJggg==">第13章_约束<!----></h1> <div class="page-slot page-slot-top">
+    <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+    <style>
+      .page-wwads{
+        width:100%!important;
+        min-height: 0;
+        margin: 0;
+      }
+      .page-wwads .wwads-img img{
+        width:80px!important;
+      }
+      .page-wwads .wwads-poweredby{
+        width: 40px;
+        position: absolute;
+        right: 25px;
+        bottom: 3px;
+      }
+      .wwads-content .wwads-text, .page-wwads .wwads-text{
+        height: 100%;
+        padding-top: 5px;
+        display: block;
+      }
+  </style>
+  </div> <div class="theme-vdoing-content content__default"><p>配套视频参考：<a href="https://www.bilibili.com/video/BV1iq4y1u7vj?p=1&amp;vd_source=cea816a08805c218ac4390ae9b61ae31" target="_blank" rel="noopener noreferrer">MySQL数据库天花板--康师傅<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <hr> <h2 id="_1-约束-constraint-概述"><a href="#_1-约束-constraint-概述" class="header-anchor">#</a> 1. 约束(constraint)概述</h2> <h3 id="_1-1-为什么需要约束"><a href="#_1-1-为什么需要约束" class="header-anchor">#</a> 1.1 为什么需要约束</h3> <p>数据完整性（Data Integrity）是指数据的精确性（Accuracy）和可靠性（Reliability）。它是防止数据库中存在不符合语义规定的数据和防止因错误信息的输入输出造成无效操作或错误信息而提出的。</p> <p>为了保证数据的完整性，SQL规范以约束的方式对<strong>表数据进行额外的条件限制</strong>。从以下四个方面考虑：</p> <ul><li><code>实体完整性（Entity Integrity）</code>：例如，同一个表中，不能存在两条完全相同无法区分的记录</li> <li><code>域完整性（Domain Integrity）</code>：例如：年龄范围0-120，性别范围“男/女”</li> <li><code>引用完整性（Referential Integrity）</code>：例如：员工所在部门，在部门表中要能找到这个部门</li> <li><code>用户自定义完整性（User-defined Integrity）</code>：例如：用户名唯一、密码不能为空等，本部门经理的工资不得高于本部门职工的平均工资的5倍。</li></ul> <h3 id="_1-2-什么是约束"><a href="#_1-2-什么是约束" class="header-anchor">#</a> 1.2 什么是约束</h3> <p>约束是表级的强制规定。</p> <p>可以在<strong>创建表时规定约束（通过 CREATE TABLE 语句）</strong>，或者在<strong>表创建之后通过 ALTER TABLE 语句规定约束</strong>。</p> <h3 id="_1-3-约束的分类"><a href="#_1-3-约束的分类" class="header-anchor">#</a> 1.3 约束的分类</h3> <ul><li>**根据约束数据列的限制，**约束可分为：
+<ul><li><strong>单列约束</strong>：每个约束只约束一列</li> <li><strong>多列约束</strong>：每个约束可约束多列数据</li></ul></li> <li><strong>根据约束的作用范围</strong>，约束可分为：
+<ul><li><strong>列级约束</strong>：只能作用在一个列上，跟在列的定义后面</li> <li><strong>表级约束</strong>：可以作用在多个列上，不与列一起，而是单独定义</li></ul></li></ul> <div class="language- extra-class"><pre class="language-text"><code>			位置			支持的约束类型					是否可以起约束名
+列级约束：	列的后面		语法都支持，但外键没有效果		不可以
+表级约束：	所有列的下面	   默认和非空不支持，其他支持	   可以（主键没有效果）
+</code></pre></div><ul><li><strong>根据约束起的作用</strong>，约束可分为：
+<ul><li><strong>NOT NULL</strong> <strong>非空约束，规定某个字段不能为空</strong></li> <li><strong>UNIQUE</strong> <strong>唯一约束</strong>，<strong>规定某个字段在整个表中是唯一的</strong></li> <li><strong>PRIMARY KEY  主键(非空且唯一)约束</strong></li> <li><strong>FOREIGN KEY</strong> <strong>外键约束</strong></li> <li><strong>CHECK</strong> <strong>检查约束</strong></li> <li><strong>DEFAULT</strong> <strong>默认值约束</strong></li></ul></li></ul> <blockquote><p>注意： MySQL不支持check约束，但可以使用check约束，而没有任何效果</p></blockquote> <ul><li>查看某个表已有的约束</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>#information_schema数据库名（系统库）
+#table_constraints表名称（专门存储各个表的约束）
+SELECT * FROM information_schema.table_constraints 
+WHERE table_name = '表名称';
+</code></pre></div><h2 id="_2-非空约束"><a href="#_2-非空约束" class="header-anchor">#</a> 2. 非空约束</h2> <h3 id="_2-1-作用"><a href="#_2-1-作用" class="header-anchor">#</a> 2.1 作用</h3> <p>限定某个字段/某列的值不允许为空</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/1555426972098.png" alt="1555426972098"></p> <h3 id="_2-2-关键字"><a href="#_2-2-关键字" class="header-anchor">#</a> 2.2 关键字</h3> <p>NOT NULL</p> <h3 id="_2-3-特点"><a href="#_2-3-特点" class="header-anchor">#</a> 2.3 特点</h3> <ul><li><p>默认，所有的类型的值都可以是NULL，包括INT、FLOAT等数据类型</p></li> <li><p>非空约束只能出现在表对象的列上，只能某个列单独限定非空，不能组合非空</p></li> <li><p>一个表可以有很多列都分别限定了非空</p></li> <li><p>空字符串''不等于NULL，0也不等于NULL</p></li></ul> <h3 id="_2-4-添加非空约束"><a href="#_2-4-添加非空约束" class="header-anchor">#</a> 2.4 添加非空约束</h3> <p>（1）建表时</p> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE 表名称(
+	字段名  数据类型,
+    字段名  数据类型 NOT NULL,  
+    字段名  数据类型 NOT NULL
+);
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE emp(
+id INT(10) NOT NULL,
+NAME VARCHAR(20) NOT NULL,
+sex CHAR NULL
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE student(
+	sid int,
+    sname varchar(20) not null,
+    tel char(11) ,
+    cardid char(18) not null
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student values(1,'张三','13710011002','110222198912032545'); #成功
+
+insert into student values(2,'李四','13710011002',null);#身份证号为空
+ERROR 1048 (23000): Column 'cardid' cannot be null
+
+insert into student values(2,'李四',null,'110222198912032546');#成功，tel允许为空
+
+insert into student values(3,null,null,'110222198912032547');#失败
+ERROR 1048 (23000): Column 'sname' cannot be null
+</code></pre></div><p>（2）建表后</p> <div class="language-mysql extra-class"><pre class="language-text"><code>alter table 表名称 modify 字段名 数据类型 not null;
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE emp
+MODIFY sex VARCHAR(30) NOT NULL;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table student modify sname varchar(20) not null;
+</code></pre></div><h3 id="_2-5-删除非空约束"><a href="#_2-5-删除非空约束" class="header-anchor">#</a> 2.5 删除非空约束</h3> <div class="language-mysql extra-class"><pre class="language-text"><code>alter table 表名称 modify 字段名 数据类型 NULL;#去掉not null，相当于修改某个非注解字段，该字段允许为空
+
+或 
+
+alter table 表名称 modify 字段名 数据类型;#去掉not null，相当于修改某个非注解字段，该字段允许为空
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE emp
+MODIFY sex VARCHAR(30) NULL;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE emp
+MODIFY NAME VARCHAR(15) DEFAULT 'abc' NULL;
+</code></pre></div><h2 id="_3-唯一性约束"><a href="#_3-唯一性约束" class="header-anchor">#</a> 3. 唯一性约束</h2> <h3 id="_3-1-作用"><a href="#_3-1-作用" class="header-anchor">#</a> 3.1 作用</h3> <p>用来限制某个字段/某列的值不能重复。</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/1555427198811.png" alt="1555427198811"></p> <h3 id="_3-2-关键字"><a href="#_3-2-关键字" class="header-anchor">#</a> 3.2 关键字</h3> <p>UNIQUE</p> <h3 id="_3-3-特点"><a href="#_3-3-特点" class="header-anchor">#</a> 3.3 特点</h3> <ul><li>同一个表可以有多个唯一约束。</li> <li>唯一约束可以是某一个列的值唯一，也可以多个列组合的值唯一。</li> <li>唯一性约束允许列值为空。</li> <li>在创建唯一约束的时候，如果不给唯一约束命名，就默认和列名相同。</li> <li><strong>MySQL会给唯一约束的列上默认创建一个唯一索引。</strong></li></ul> <h3 id="_3-4-添加唯一约束"><a href="#_3-4-添加唯一约束" class="header-anchor">#</a> 3.4 添加唯一约束</h3> <p>（1）建表时</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table 表名称(
+	字段名  数据类型,
+    字段名  数据类型  unique,  
+    字段名  数据类型  unique key,
+    字段名  数据类型
+);
+create table 表名称(
+	字段名  数据类型,
+    字段名  数据类型,  
+    字段名  数据类型,
+    [constraint 约束名] unique key(字段名)
+);
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table student(
+	sid int,
+    sname varchar(20),
+    tel char(11) unique,
+    cardid char(18) unique key
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE t_course(
+	cid INT UNIQUE,
+	cname VARCHAR(100) UNIQUE,
+	description VARCHAR(200)
+);
+
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE USER(
+ id INT NOT NULL,
+ NAME VARCHAR(25),
+ PASSWORD VARCHAR(16),
+ -- 使用表级约束语法
+ CONSTRAINT uk_name_pwd UNIQUE(NAME,PASSWORD)
+);
+</code></pre></div><blockquote><p>表示用户名和密码组合不能重复</p></blockquote> <div class="language-mysql extra-class"><pre class="language-text"><code>insert into student values(1,'张三','13710011002','101223199012015623');
+insert into student values(2,'李四','13710011003','101223199012015624');
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from student;
++-----+-------+-------------+--------------------+
+| sid | sname | tel         | cardid             |
++-----+-------+-------------+--------------------+
+|   1 | 张三  | 13710011002 | 101223199012015623 |
+|   2 | 李四  | 13710011003 | 101223199012015624 |
++-----+-------+-------------+--------------------+
+2 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student values(3,'王五','13710011004','101223199012015624'); #身份证号重复
+ERROR 1062 (23000): Duplicate entry '101223199012015624' for key 'cardid'
+
+insert into student values(3,'王五','13710011003','101223199012015625'); 
+ERROR 1062 (23000): Duplicate entry '13710011003' for key 'tel'
+</code></pre></div><p>（2）建表后指定唯一键约束</p> <div class="language-mysql extra-class"><pre class="language-text"><code>#字段列表中如果是一个字段，表示该列的值唯一。如果是两个或更多个字段，那么复合唯一，即多个字段的组合是唯一的
+#方式1：
+alter table 表名称 add unique key(字段列表); 
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#方式2：
+alter table 表名称 modify 字段名 字段类型 unique;
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE USER 
+ADD UNIQUE(NAME,PASSWORD);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE USER 
+ADD CONSTRAINT uk_name_pwd UNIQUE(NAME,PASSWORD);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE USER 
+MODIFY NAME VARCHAR(20) UNIQUE;
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table student(
+	sid int primary key,
+    sname varchar(20),
+    tel char(11) ,
+    cardid char(18) 
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table student add unique key(tel);
+alter table student add unique key(cardid);
+</code></pre></div><h3 id="_3-5-关于复合唯一约束"><a href="#_3-5-关于复合唯一约束" class="header-anchor">#</a> 3.5 关于复合唯一约束</h3> <div class="language-mysql extra-class"><pre class="language-text"><code>create table 表名称(
+	字段名  数据类型,
+    字段名  数据类型,  
+    字段名  数据类型,
+    unique key(字段列表) #字段列表中写的是多个字段名，多个字段名用逗号分隔，表示那么是复合唯一，即多个字段的组合是唯一的
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#学生表
+create table student(
+	sid int,	#学号
+    sname varchar(20),			#姓名
+    tel char(11) unique key,  #电话
+    cardid char(18) unique key #身份证号
+);
+
+#课程表
+create table course(
+	cid int,  #课程编号
+    cname varchar(20)     #课程名称
+);
+
+#选课表
+create table student_course(
+    id int,
+	sid int,
+    cid int,
+    score int,
+    unique key(sid,cid)  #复合唯一
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student values(1,'张三','13710011002','101223199012015623');#成功
+insert into student values(2,'李四','13710011003','101223199012015624');#成功
+insert into course values(1001,'Java'),(1002,'MySQL');#成功
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from student;
++-----+-------+-------------+--------------------+
+| sid | sname | tel         | cardid             |
++-----+-------+-------------+--------------------+
+|   1 | 张三  | 13710011002 | 101223199012015623 |
+|   2 | 李四  | 13710011003 | 101223199012015624 |
++-----+-------+-------------+--------------------+
+2 rows in set (0.00 sec)
+
+mysql&gt; select * from course;
++------+-------+
+| cid  | cname |
++------+-------+
+| 1001 | Java  |
+| 1002 | MySQL |
++------+-------+
+2 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student_course values
+(1, 1, 1001, 89),
+(2, 1, 1002, 90),
+(3, 2, 1001, 88),
+(4, 2, 1002, 56);#成功
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from student_course;
++----+------+------+-------+
+| id | sid  | cid  | score |
++----+------+------+-------+
+|  1 |    1 | 1001 |    89 |
+|  2 |    1 | 1002 |    90 |
+|  3 |    2 | 1001 |    88 |
+|  4 |    2 | 1002 |    56 |
++----+------+------+-------+
+4 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student_course values (5, 1, 1001, 88);#失败
+
+#ERROR 1062 (23000): Duplicate entry '1-1001' for key 'sid'   违反sid-cid的复合唯一
+</code></pre></div><h3 id="_3-5-删除唯一约束"><a href="#_3-5-删除唯一约束" class="header-anchor">#</a> 3.5 删除唯一约束</h3> <ul><li>添加唯一性约束的列上也会自动创建唯一索引。</li> <li>删除唯一约束只能通过删除唯一索引的方式删除。</li> <li>删除时需要指定唯一索引名，唯一索引名就和唯一约束名一样。</li> <li>如果创建唯一约束时未指定名称，如果是单列，就默认和列名相同；如果是组合列，那么默认和()中排在第一个的列名相同。也可以自定义唯一性约束名。</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>SELECT * FROM information_schema.table_constraints WHERE table_name = '表名'; #查看都有哪些约束
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE USER 
+DROP INDEX uk_name_pwd;
+</code></pre></div><blockquote><p>注意：可以通过 <code>show index from 表名称;</code>查看表的索引</p></blockquote> <h2 id="_4-primary-key-约束"><a href="#_4-primary-key-约束" class="header-anchor">#</a> 4. PRIMARY KEY 约束</h2> <h3 id="_4-1-作用"><a href="#_4-1-作用" class="header-anchor">#</a> 4.1 作用</h3> <p>用来唯一标识表中的一行记录。</p> <h3 id="_4-2-关键字"><a href="#_4-2-关键字" class="header-anchor">#</a> 4.2 关键字</h3> <p>primary key</p> <h3 id="_4-3-特点"><a href="#_4-3-特点" class="header-anchor">#</a> 4.3 特点</h3> <ul><li>主键约束相当于<strong>唯一约束+非空约束的组合</strong>，主键约束列不允许重复，也不允许出现空值。</li></ul> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/1555427492244.png" alt="1555427492244"></p> <ul><li><p>一个表最多只能有一个主键约束，建立主键约束可以在列级别创建，也可以在表级别上创建。</p></li> <li><p>主键约束对应着表中的一列或者多列（复合主键）</p></li> <li><p>如果是多列组合的复合主键约束，那么这些列都不允许为空值，并且组合的值不允许重复。</p></li> <li><p><strong>MySQL的主键名总是PRIMARY</strong>，就算自己命名了主键约束名也没用。</p></li> <li><p>当创建主键约束时，系统默认会在所在的列或列组合上建立对应的<strong>主键索引</strong>（能够根据主键查询的，就根据主键查询，效率更高）。如果删除主键约束了，主键约束对应的索引就自动删除了。</p></li> <li><p>需要注意的一点是，不要修改主键字段的值。因为主键是数据记录的唯一标识，如果修改了主键的值，就有可能会破坏数据的完整性。</p></li></ul> <h3 id="_4-4-添加主键约束"><a href="#_4-4-添加主键约束" class="header-anchor">#</a> 4.4 添加主键约束</h3> <p>（1）建表时指定主键约束</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table 表名称(
+	字段名  数据类型  primary key, #列级模式
+    字段名  数据类型,  
+    字段名  数据类型  
+);
+create table 表名称(
+	字段名  数据类型,
+    字段名  数据类型,  
+    字段名  数据类型,
+    [constraint 约束名] primary key(字段名) #表级模式
+);
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table temp(
+	id int primary key,
+    name varchar(20)
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc temp;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | NO   | PRI | NULL    |       |
+| name  | varchar(20) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into temp values(1,'张三');#成功
+insert into temp values(2,'李四');#成功
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from temp;
++----+------+
+| id | name |
++----+------+
+|  1 | 张三 |
+|  2 | 李四 |
++----+------+
+2 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into temp values(1,'张三');#失败
+ERROR 1062 (23000): Duplicate（重复） entry（键入，输入） '1' for key 'PRIMARY'
+
+
+insert into temp values(1,'王五');#失败
+ERROR 1062 (23000): Duplicate entry '1' for key 'PRIMARY'
+
+insert into temp values(3,'张三');#成功
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from temp;
++----+------+
+| id | name |
++----+------+
+|  1 | 张三 |
+|  2 | 李四 |
+|  3 | 张三 |
++----+------+
+3 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into temp values(4,null);#成功
+
+
+insert into temp values(null,'李琦');#失败
+ERROR 1048 (23000): Column 'id' cannot be null
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from temp;
++----+------+
+| id | name |
++----+------+
+|  1 | 张三 |
+|  2 | 李四 |
+|  3 | 张三 |
+|  4 | NULL |
++----+------+
+4 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#演示一个表建立两个主键约束
+create table temp(
+	id int primary key,
+    name varchar(20) primary key
+);
+ERROR 1068 (42000): Multiple（多重的） primary key defined（定义）
+</code></pre></div><p>再举例：</p> <ul><li>列级约束</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE emp4(
+id INT PRIMARY KEY AUTO_INCREMENT ,
+NAME VARCHAR(20)
+);
+</code></pre></div><ul><li>表级约束</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE emp5(
+id INT NOT NULL AUTO_INCREMENT,
+NAME VARCHAR(20),
+pwd VARCHAR(15),
+CONSTRAINT emp5_id_pk PRIMARY KEY(id)
+);
+</code></pre></div><p>（2）建表后增加主键约束</p> <div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE 表名称 ADD PRIMARY KEY(字段列表); #字段列表可以是一个字段，也可以是多个字段，如果是多个字段的话，是复合主键
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE student ADD PRIMARY KEY (sid);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE emp5 ADD PRIMARY KEY(NAME,pwd);
+</code></pre></div><h3 id="_4-5-关于复合主键"><a href="#_4-5-关于复合主键" class="header-anchor">#</a> 4.5 关于复合主键</h3> <div class="language-mysql extra-class"><pre class="language-text"><code>create table 表名称(
+	字段名  数据类型,
+    字段名  数据类型,  
+    字段名  数据类型,
+    primary key(字段名1,字段名2)  #表示字段1和字段2的组合是唯一的，也可以有更多个字段
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#学生表
+create table student(
+	sid int primary key,  #学号
+    sname varchar(20)     #学生姓名
+);
+
+#课程表
+create table course(
+	cid int primary key,  #课程编号
+    cname varchar(20)     #课程名称
+);
+
+#选课表
+create table student_course(
+	sid int,
+    cid int,
+    score int,
+    primary key(sid,cid)  #复合主键
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student values(1,'张三'),(2,'李四');
+insert into course values(1001,'Java'),(1002,'MySQL');
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from student;
++-----+-------+
+| sid | sname |
++-----+-------+
+|   1 | 张三  |
+|   2 | 李四  |
++-----+-------+
+2 rows in set (0.00 sec)
+
+mysql&gt; select * from course;
++------+-------+
+| cid  | cname |
++------+-------+
+| 1001 | Java  |
+| 1002 | MySQL |
++------+-------+
+2 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student_course values(1, 1001, 89),(1,1002,90),(2,1001,88),(2,1002,56);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from student_course;
++-----+------+-------+
+| sid | cid  | score |
++-----+------+-------+
+|   1 | 1001 |    89 |
+|   1 | 1002 |    90 |
+|   2 | 1001 |    88 |
+|   2 | 1002 |    56 |
++-----+------+-------+
+4 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into student_course values(1, 1001, 100);
+ERROR 1062 (23000): Duplicate entry '1-1001' for key 'PRIMARY'
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc student_course;
++-------+---------+------+-----+---------+-------+
+| Field | Type    | Null | Key | Default | Extra |
++-------+---------+------+-----+---------+-------+
+| sid   | int(11) | NO   | PRI | NULL    |       |
+| cid   | int(11) | NO   | PRI | NULL    |       |
+| score | int(11) | YES  |     | NULL    |       |
++-------+---------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+</code></pre></div><ul><li>再举例</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE emp6(
+id INT NOT NULL,
+NAME VARCHAR(20),
+pwd VARCHAR(15),
+CONSTRAINT emp7_pk PRIMARY KEY(NAME,pwd)
+);
+</code></pre></div><h3 id="_4-6-删除主键约束"><a href="#_4-6-删除主键约束" class="header-anchor">#</a> 4.6 删除主键约束</h3> <div class="language-mysql extra-class"><pre class="language-text"><code>alter table 表名称 drop primary key;
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE student DROP PRIMARY KEY;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE emp5 DROP PRIMARY KEY;
+</code></pre></div><blockquote><p>说明：删除主键约束，不需要指定主键名，因为一个表只有一个主键，删除主键约束后，非空还存在。</p></blockquote> <h2 id="_5-自增列-auto-increment"><a href="#_5-自增列-auto-increment" class="header-anchor">#</a> 5. 自增列：AUTO_INCREMENT</h2> <h3 id="_5-1-作用"><a href="#_5-1-作用" class="header-anchor">#</a> 5.1 作用</h3> <p>某个字段的值自增</p> <h3 id="_5-2-关键字"><a href="#_5-2-关键字" class="header-anchor">#</a> 5.2 关键字</h3> <p>auto_increment</p> <h3 id="_5-3-特点和要求"><a href="#_5-3-特点和要求" class="header-anchor">#</a> 5.3 特点和要求</h3> <p>（1）一个表最多只能有一个自增长列</p> <p>（2）当需要产生唯一标识符或顺序值时，可设置自增长</p> <p>（3）自增长列约束的列必须是键列（主键列，唯一键列）</p> <p>（4）自增约束的列的数据类型必须是整数类型</p> <p>（5）如果自增列指定了 0 和 null，会在当前最大值的基础上自增；如果自增列手动指定了具体值，直接赋值为具体值。</p> <p>错误演示：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table employee(
+	eid int auto_increment,
+    ename varchar(20)
+);
+# ERROR 1075 (42000): Incorrect table definition; there can be only one auto column and it must be defined as a key   
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>create table employee(
+	eid int primary key,
+    ename varchar(20) unique key auto_increment
+);
+# ERROR 1063 (42000): Incorrect column specifier for column 'ename'  因为ename不是整数类型
+</code></pre></div><h3 id="_5-4-如何指定自增约束"><a href="#_5-4-如何指定自增约束" class="header-anchor">#</a> 5.4 如何指定自增约束</h3> <p><strong>（1）建表时</strong></p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table 表名称(
+	字段名  数据类型  primary key auto_increment,
+    字段名  数据类型  unique key not null,  
+    字段名  数据类型  unique key,
+    字段名  数据类型  not null default 默认值, 
+);
+create table 表名称(
+	字段名  数据类型 default 默认值 ,
+    字段名  数据类型 unique key auto_increment,  
+    字段名  数据类型 not null default 默认值,,
+    primary key(字段名)
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>create table employee(
+	eid int primary key auto_increment,
+    ename varchar(20)
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| eid   | int(11)     | NO   | PRI | NULL    | auto_increment |
+| ename | varchar(20) | YES  |     | NULL    |                |
++-------+-------------+------+-----+---------+----------------+
+2 rows in set (0.00 sec)
+</code></pre></div><p><strong>（2）建表后</strong></p> <div class="language-mysql extra-class"><pre class="language-text"><code>alter table 表名称 modify 字段名 数据类型 auto_increment;
+</code></pre></div><p>例如：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table employee(
+	eid int primary key ,
+    ename varchar(20)
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table employee modify eid int auto_increment;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| eid   | int(11)     | NO   | PRI | NULL    | auto_increment |
+| ename | varchar(20) | YES  |     | NULL    |                |
++-------+-------------+------+-----+---------+----------------+
+2 rows in set (0.00 sec)
+</code></pre></div><h3 id="_5-5-如何删除自增约束"><a href="#_5-5-如何删除自增约束" class="header-anchor">#</a> 5.5 如何删除自增约束</h3> <div class="language-mysql extra-class"><pre class="language-text"><code>#alter table 表名称 modify 字段名 数据类型 auto_increment;#给这个字段增加自增约束
+
+alter table 表名称 modify 字段名 数据类型; #去掉auto_increment相当于删除
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table employee modify eid int;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| eid   | int(11)     | NO   | PRI | NULL    |       |
+| ename | varchar(20) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+</code></pre></div><h3 id="_5-6-mysql-8-0新特性-自增变量的持久化"><a href="#_5-6-mysql-8-0新特性-自增变量的持久化" class="header-anchor">#</a> 5.6 MySQL 8.0新特性—自增变量的持久化</h3> <p>在MySQL 8.0之前，自增主键AUTO_INCREMENT的值如果大于max(primary key)+1，在MySQL重启后，会重置AUTO_INCREMENT=max(primary key)+1，这种现象在某些情况下会导致业务主键冲突或者其他难以发现的问题。
+下面通过案例来对比不同的版本中自增变量是否持久化。
+在MySQL 5.7版本中，测试步骤如下：
+创建的数据表中包含自增主键的id字段，语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE test1(
+id INT PRIMARY KEY AUTO_INCREMENT
+);
+</code></pre></div><p>插入4个空值，执行如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>INSERT INTO test1
+VALUES(0),(0),(0),(0);
+</code></pre></div><p>查询数据表test1中的数据，结果如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM test1;
++----+
+| id |
++----+
+|  1 |
+|  2 |
+|  3 |
+|  4 |
++----+
+4 rows in set (0.00 sec)
+</code></pre></div><p>删除id为4的记录，语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>DELETE FROM test1 WHERE id = 4;
+</code></pre></div><p>再次插入一个空值，语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>INSERT INTO test1 VALUES(0);
+</code></pre></div><p>查询此时数据表test1中的数据，结果如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM test1;
++----+
+| id |
++----+
+|  1 |
+|  2 |
+|  3 |
+|  5 |
++----+
+4 rows in set (0.00 sec)
+</code></pre></div><p>从结果可以看出，虽然删除了id为4的记录，但是再次插入空值时，并没有重用被删除的4，而是分配了5。
+删除id为5的记录，结果如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>DELETE FROM test1 where id=5;
+</code></pre></div><p><strong>重启数据库</strong>，重新插入一个空值。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>INSERT INTO test1 values(0);
+</code></pre></div><p>再次查询数据表test1中的数据，结果如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM test1;
++----+
+| id |
++----+
+|  1 |
+|  2 |
+|  3 |
+|  4 |
++----+
+4 rows in set (0.00 sec)
+</code></pre></div><p>从结果可以看出，新插入的0值分配的是4，按照重启前的操作逻辑，此处应该分配6。出现上述结果的主要原因是自增主键没有持久化。
+在MySQL 5.7系统中，对于自增主键的分配规则，是由InnoDB数据字典内部一个<code>计数器</code>来决定的，而该计数器只在<code>内存中维护</code>，并不会持久化到磁盘中。当数据库重启时，该计数器会被初始化。</p> <p>在MySQL 8.0版本中，上述测试步骤最后一步的结果如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM test1;
++----+
+| id |
++----+
+|  1 |
+|  2 |
+|  3 |
+|  6 |
++----+
+4 rows in set (0.00 sec)
+</code></pre></div><p>从结果可以看出，自增变量已经持久化了。</p> <p>MySQL 8.0将自增主键的计数器持久化到<code>重做日志</code>中。每次计数器发生改变，都会将其写入重做日志中。如果数据库重启，InnoDB会根据重做日志中的信息来初始化计数器的内存值。</p> <h2 id="_6-foreign-key-约束"><a href="#_6-foreign-key-约束" class="header-anchor">#</a> 6. FOREIGN KEY 约束</h2> <h3 id="_6-1-作用"><a href="#_6-1-作用" class="header-anchor">#</a> 6.1 作用</h3> <p>限定某个表的某个字段的引用完整性。</p> <p>比如：员工表的员工所在部门的选择，必须在部门表能找到对应的部分。</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/1555428214706.png" alt="1555428214706"></p> <h3 id="_6-2-关键字"><a href="#_6-2-关键字" class="header-anchor">#</a> 6.2 关键字</h3> <p>FOREIGN KEY</p> <h3 id="_6-3-主表和从表-父表和子表"><a href="#_6-3-主表和从表-父表和子表" class="header-anchor">#</a> 6.3 主表和从表/父表和子表</h3> <p>主表（父表）：被引用的表，被参考的表</p> <p>从表（子表）：引用别人的表，参考别人的表</p> <p>例如：员工表的员工所在部门这个字段的值要参考部门表：部门表是主表，员工表是从表。</p> <p>例如：学生表、课程表、选课表：选课表的学生和课程要分别参考学生表和课程表，学生表和课程表是主表，选课表是从表。</p> <h3 id="_6-4-特点"><a href="#_6-4-特点" class="header-anchor">#</a> 6.4 特点</h3> <p>（1）从表的外键列，必须引用/参考主表的主键或唯一约束的列</p> <p>​          为什么？因为被依赖/被参考的值必须是唯一的</p> <p>（2）在创建外键约束时，如果不给外键约束命名，<strong>默认名不是列名，而是自动产生一个外键名</strong>（例如 student_ibfk_1;），也可以指定外键约束名。</p> <p>（3）创建(CREATE)表时就指定外键约束的话，先创建主表，再创建从表</p> <p>（4）删表时，先删从表（或先删除外键约束），再删除主表</p> <p>（5）当主表的记录被从表参照时，主表的记录将不允许删除，如果要删除数据，需要先删除从表中依赖该记录的数据，然后才可以删除主表的数据</p> <p>（6）在“从表”中指定外键约束，并且一个表可以建立多个外键约束</p> <p>（7）从表的外键列与主表被参照的列名字可以不相同，但是数据类型必须一样，逻辑意义一致。如果类型不一样，创建子表时，就会出现错误“ERROR 1005 (HY000): Can't create table'database.tablename'(errno: 150)”。</p> <p>​          例如：都是表示部门编号，都是int类型。</p> <p>（8）<strong>当创建外键约束时，系统默认会在所在的列上建立对应的普通索引</strong>。但是索引名是外键的约束名。（根据外键查询效率很高）</p> <p>（9）删除外键约束后，必须<code>手动</code>删除对应的索引</p> <h3 id="_6-5-添加外键约束"><a href="#_6-5-添加外键约束" class="header-anchor">#</a> 6.5 添加外键约束</h3> <p>（1）建表时</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table 主表名称(
+	字段1  数据类型  primary key,
+    字段2  数据类型
+);
+
+create table 从表名称(
+	字段1  数据类型  primary key,
+    字段2  数据类型,
+    [CONSTRAINT &lt;外键约束名称&gt;] FOREIGN KEY（从表的某个字段) references 主表名(被参考字段)
+);
+#(从表的某个字段)的数据类型必须与主表名(被参考字段)的数据类型一致，逻辑意义也一样
+#(从表的某个字段)的字段名可以与主表名(被参考字段)的字段名一样，也可以不一样
+
+-- FOREIGN KEY: 在表级指定子表中的列
+-- REFERENCES: 标示在父表中的列
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>create table dept( #主表
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(#从表
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid int,				#员工所在的部门
+    foreign key (deptid) references dept(did)   #在从表中指定外键约束
+    #emp表的deptid和和dept表的did的数据类型一致，意义都是表示部门的编号
+);
+
+说明：
+（1）主表dept必须先创建成功，然后才能创建emp表，指定外键成功。
+（2）删除表时，先删除从表emp，再删除主表dept
+</code></pre></div><p>（2）建表后</p> <p>一般情况下，表与表的关联都是提前设计好了的，因此，会在创建表的时候就把外键约束定义好。不过，如果需要修改表的设计（比如添加新的字段，增加新的关联关系），但没有预先定义外键约束，那么，就要用修改表的方式来补充定义。</p> <p>格式：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE 从表名 ADD [CONSTRAINT 约束名] FOREIGN KEY (从表的字段) REFERENCES 主表名(被引用字段) [on update xx][on delete xx];
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>ALTER TABLE emp1
+ADD [CONSTRAINT emp_dept_id_fk] FOREIGN KEY(dept_id) REFERENCES dept(dept_id);
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid int				#员工所在的部门
+);
+#这两个表创建时，没有指定外键的话，那么创建顺序是随意
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table emp add foreign key (deptid) references dept(did);
+</code></pre></div><h3 id="_6-6-演示问题"><a href="#_6-6-演示问题" class="header-anchor">#</a> 6.6 演示问题</h3> <p>（1）失败：不是键列</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int ,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid int,				#员工所在的部门
+    foreign key (deptid) references dept(did)
+);
+#ERROR 1215 (HY000): Cannot add foreign key constraint  原因是dept的did不是键列
+</code></pre></div><p>（2）失败：数据类型不一致</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid char,				#员工所在的部门
+    foreign key (deptid) references dept(did)
+);
+#ERROR 1215 (HY000): Cannot add foreign key constraint  原因是从表的deptid字段和主表的did字段的数据类型不一致，并且要它俩的逻辑意义一致
+</code></pre></div><p>（3）成功，两个表字段名一样</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    did int,				#员工所在的部门
+    foreign key (did) references dept(did)  
+    #emp表的deptid和和dept表的did的数据类型一致，意义都是表示部门的编号
+    #是否重名没问题，因为两个did在不同的表中
+);
+</code></pre></div><p>（4）添加、删除、修改问题</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid int,				#员工所在的部门
+    foreign key (deptid) references dept(did)  
+    #emp表的deptid和和dept表的did的数据类型一致，意义都是表示部门的编号
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into dept values(1001,'教学部');
+insert into dept values(1003, '财务部');
+
+insert into emp values(1,'张三',1001); #添加从表记录成功，在添加这条记录时，要求部门表有1001部门
+
+insert into emp values(2,'李四',1005);#添加从表记录失败
+ERROR 1452 (23000): Cannot add（添加） or update（修改） a child row: a foreign key constraint fails (`atguigudb`.`emp`, CONSTRAINT `emp_ibfk_1` FOREIGN KEY (`deptid`) REFERENCES `dept` (`did`)) 从表emp添加记录失败，因为主表dept没有1005部门
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from dept;
++------+--------+
+| did  | dname  |
++------+--------+
+| 1001 | 教学部  |
+| 1003 | 财务部  |
++------+--------+
+2 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |
++-----+-------+--------+
+|   1 | 张三   |   1001 |
++-----+-------+--------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>update emp set deptid = 1002 where eid = 1;#修改从表失败 
+ERROR 1452 (23000): Cannot add（添加） or update（修改） a child row（子表的记录）: a foreign key constraint fails（外键约束失败） (`atguigudb`.`emp`, CONSTRAINT `emp_ibfk_1` FOREIGN KEY (`deptid`) REFERENCES `dept` (`did`))  #部门表did字段现在没有1002的值，所以员工表中不能修改员工所在部门deptid为1002
+
+update dept set did = 1002 where did = 1001;#修改主表失败
+ERROR 1451 (23000): Cannot delete（删除） or update（修改） a parent row（父表的记录）: a foreign key constraint fails (`atguigudb`.`emp`, CONSTRAINT `emp_ibfk_1` FOREIGN KEY (`deptid`) REFERENCES `dept` (`did`)) #部门表did的1001字段已经被emp引用了，所以部门表的1001字段就不能修改了。
+
+update dept set did = 1002 where did = 1003;#修改主表成功  因为部门表的1003部门没有被emp表引用，所以可以修改
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>delete from dept where did=1001; #删除主表失败
+ERROR 1451 (23000): Cannot delete（删除） or update（修改） a parent row（父表记录）: a foreign key constraint fails (`atguigudb`.`emp`, CONSTRAINT `emp_ibfk_1` FOREIGN KEY (`deptid`) REFERENCES `dept` (`did`))  #因为部门表did的1001字段已经被emp引用了，所以部门表的1001字段对应的记录就不能被删除
+</code></pre></div><p>总结：约束关系是针对双方的</p> <ul><li><p>添加了外键约束后，主表的修改和删除数据受约束</p></li> <li><p>添加了外键约束后，从表的添加和修改数据受约束</p></li> <li><p>在从表上建立外键，要求主表必须存在</p></li> <li><p>删除主表时，要求从表从表先删除，或将从表中外键引用该主表的关系先删除</p></li></ul> <h3 id="_6-7-约束等级"><a href="#_6-7-约束等级" class="header-anchor">#</a> 6.7 约束等级</h3> <ul><li><p><code>Cascade方式</code>：在父表上update/delete记录时，同步update/delete掉子表的匹配记录</p></li> <li><p><code>Set null方式</code>：在父表上update/delete记录时，将子表上匹配记录的列设为null，但是要注意子表的外键列不能为not null</p></li> <li><p><code>No action方式</code>：如果子表中有匹配的记录，则不允许对父表对应候选键进行update/delete操作</p></li> <li><p><code>Restrict方式</code>：同no action， 都是立即检查外键约束</p></li> <li><p><code>Set default方式</code>（在可视化工具SQLyog中可能显示空白）：父表有变更时，子表将外键列设置成一个默认的值，但Innodb不能识别</p></li></ul> <p>如果没有指定等级，就相当于Restrict方式。</p> <p>对于外键约束，最好是采用: <code>ON UPDATE CASCADE ON DELETE RESTRICT</code> 的方式。</p> <p>（1）演示1：on update cascade on delete set null</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid int,				#员工所在的部门
+    foreign key (deptid) references dept(did)  on update cascade on delete set null
+    #把修改操作设置为级联修改等级，把删除操作设置为set null等级
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into dept values(1001,'教学部');
+insert into dept values(1002, '财务部');
+insert into dept values(1003, '咨询部');
+
+
+insert into emp values(1,'张三',1001); #在添加这条记录时，要求部门表有1001部门
+insert into emp values(2,'李四',1001);
+insert into emp values(3,'王五',1002);
+
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from dept;
+
+mysql&gt; select * from emp;
+
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#修改主表成功，从表也跟着修改，修改了主表被引用的字段1002为1004，从表的引用字段就跟着修改为1004了
+mysql&gt; update dept set did = 1004 where did = 1002;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql&gt; select * from dept;
++------+--------+
+| did  | dname  |
++------+--------+
+| 1001 | 教学部 |
+| 1003 | 咨询部 |
+| 1004 | 财务部 | #原来是1002，修改为1004
++------+--------+
+3 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |
++-----+-------+--------+
+|   1 | 张三  |   1001 |
+|   2 | 李四  |   1001 |
+|   3 | 王五  |   1004 | #原来是1002，跟着修改为1004
++-----+-------+--------+
+3 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#删除主表的记录成功，从表对应的字段的值被修改为null
+mysql&gt; delete from dept where did = 1001;
+Query OK, 1 row affected (0.01 sec)
+
+mysql&gt; select * from dept;
++------+--------+
+| did  | dname  | #记录1001部门被删除了
++------+--------+
+| 1003 | 咨询部  |
+| 1004 | 财务部  |
++------+--------+
+2 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |
++-----+-------+--------+
+|   1 | 张三  |   NULL | #原来引用1001部门的员工，deptid字段变为null
+|   2 | 李四  |   NULL |
+|   3 | 王五  |   1004 |
++-----+-------+--------+
+3 rows in set (0.00 sec)
+</code></pre></div><p>（2）演示2：on update set null on delete cascade</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid int,				#员工所在的部门
+    foreign key (deptid) references dept(did)  on update set null on delete cascade
+    #把修改操作设置为set null等级，把删除操作设置为级联删除等级
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into dept values(1001,'教学部');
+insert into dept values(1002, '财务部');
+insert into dept values(1003, '咨询部');
+
+insert into emp values(1,'张三',1001); #在添加这条记录时，要求部门表有1001部门
+insert into emp values(2,'李四',1001);
+insert into emp values(3,'王五',1002);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from dept;
++------+--------+
+| did  | dname  |
++------+--------+
+| 1001 | 教学部 |
+| 1002 | 财务部 |
+| 1003 | 咨询部 |
++------+--------+
+3 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |
++-----+-------+--------+
+|   1 | 张三  |   1001 |
+|   2 | 李四  |   1001 |
+|   3 | 王五  |   1002 |
++-----+-------+--------+
+3 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#修改主表，从表对应的字段设置为null
+mysql&gt; update dept set did = 1004 where did = 1002;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql&gt; select * from dept;
++------+--------+
+| did  | dname  |
++------+--------+
+| 1001 | 教学部 |
+| 1003 | 咨询部 |
+| 1004 | 财务部 | #原来did是1002
++------+--------+
+3 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |
++-----+-------+--------+
+|   1 | 张三  |   1001 |
+|   2 | 李四  |   1001 |
+|   3 | 王五  |   NULL | #原来deptid是1002，因为部门表1002被修改了，1002没有对应的了，就设置为null
++-----+-------+--------+
+3 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#删除主表的记录成功，主表的1001行被删除了，从表相应的记录也被删除了
+mysql&gt; delete from dept where did=1001;
+Query OK, 1 row affected (0.00 sec)
+
+mysql&gt; select * from dept;
++------+--------+
+| did  | dname  | #部门表中1001部门被删除
++------+--------+
+| 1003 | 咨询部 |
+| 1004 | 财务部 |
++------+--------+
+2 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |#原来1001部门的员工也被删除了
++-----+-------+--------+
+|   3 | 王五  |   NULL |
++-----+-------+--------+
+1 row in set (0.00 sec)
+
+</code></pre></div><p>（3）演示：on update cascade on delete cascade</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table dept(
+	did int primary key,		#部门编号
+    dname varchar(50)			#部门名称
+);
+
+create table emp(
+	eid int primary key,  #员工编号
+    ename varchar(5),     #员工姓名
+    deptid int,				#员工所在的部门
+    foreign key (deptid) references dept(did)  on update cascade on delete cascade
+    #把修改操作设置为级联修改等级，把删除操作也设置为级联删除等级
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into dept values(1001,'教学部');
+insert into dept values(1002, '财务部');
+insert into dept values(1003, '咨询部');
+
+insert into emp values(1,'张三',1001); #在添加这条记录时，要求部门表有1001部门
+insert into emp values(2,'李四',1001);
+insert into emp values(3,'王五',1002);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from dept;
++------+--------+
+| did  | dname  |
++------+--------+
+| 1001 | 教学部 |
+| 1002 | 财务部 |
+| 1003 | 咨询部 |
++------+--------+
+3 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |
++-----+-------+--------+
+|   1 | 张三  |   1001 |
+|   2 | 李四  |   1001 |
+|   3 | 王五  |   1002 |
++-----+-------+--------+
+3 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#修改主表，从表对应的字段自动修改
+mysql&gt; update dept set did = 1004 where did = 1002;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql&gt; select * from dept;
++------+--------+
+| did  | dname  |
++------+--------+
+| 1001 | 教学部 |
+| 1003 | 咨询部 |
+| 1004 | 财务部 | #部门1002修改为1004
++------+--------+
+3 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |
++-----+-------+--------+
+|   1 | 张三  |   1001 |
+|   2 | 李四  |   1001 |
+|   3 | 王五  |   1004 | #级联修改
++-----+-------+--------+
+3 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#删除主表的记录成功，主表的1001行被删除了，从表相应的记录也被删除了
+mysql&gt; delete from dept where did=1001;
+Query OK, 1 row affected (0.00 sec)
+
+mysql&gt; select * from dept;
++------+--------+
+| did  | dname  | #1001部门被删除了
++------+--------+
+| 1003 | 咨询部 |
+| 1004 | 财务部 | 
++------+--------+
+2 rows in set (0.00 sec)
+
+mysql&gt; select * from emp;
++-----+-------+--------+
+| eid | ename | deptid |  #1001部门的员工也被删除了
++-----+-------+--------+
+|   3 | 王五  |   1004 |
++-----+-------+--------+
+1 row in set (0.00 sec)
+</code></pre></div><h3 id="_6-8-删除外键约束"><a href="#_6-8-删除外键约束" class="header-anchor">#</a> 6.8 删除外键约束</h3> <p>流程如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>(1)第一步先查看约束名和删除外键约束
+SELECT * FROM information_schema.table_constraints WHERE table_name = '表名称';#查看某个表的约束名
+
+ALTER TABLE 从表名 DROP FOREIGN KEY 外键约束名;
+
+（2）第二步查看索引名和删除索引。（注意，只能手动删除）
+SHOW INDEX FROM 表名称; #查看某个表的索引名
+
+ALTER TABLE 从表名 DROP INDEX 索引名;
+
+</code></pre></div><p>举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM information_schema.table_constraints WHERE table_name = 'emp';
+
+mysql&gt; alter table emp drop foreign key emp_ibfk_1;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; show index from emp;
+
+mysql&gt; alter table emp drop index deptid;
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql&gt;  show index from emp;
+</code></pre></div><h3 id="_6-9-开发场景"><a href="#_6-9-开发场景" class="header-anchor">#</a> 6.9 开发场景</h3> <p><strong>问题1：如果两个表之间有关系（一对一、一对多），比如：员工表和部门表（一对多），它们之间是否一定要建外键约束？</strong></p> <p>答：不是的</p> <p><strong>问题2：建和不建外键约束有什么区别？</strong></p> <p>答：建外键约束，你的操作（创建表、删除表、添加、修改、删除）会受到限制，从语法层面受到限制。例如：在员工表中不可能添加一个员工信息，它的部门的值在部门表中找不到。</p> <p>不建外键约束，你的操作（创建表、删除表、添加、修改、删除）不受限制，要保证数据的<code>引用完整性</code>，只能依<code>靠程序员的自觉</code>，或者是<code>在Java程序中进行限定</code>。例如：在员工表中，可以添加一个员工的信息，它的部门指定为一个完全不存在的部门。</p> <p><strong>问题3：那么建和不建外键约束和查询有没有关系？</strong></p> <p>答：没有</p> <blockquote><p>在 MySQL 里，外键约束是有成本的，需要消耗系统资源。对于大并发的 SQL 操作，有可能会不适合。比如大型网站的中央数据库，可能会<code>因为外键约束的系统开销而变得非常慢</code>。所以， MySQL 允许你不使用系统自带的外键约束，在<code>应用层面</code>完成检查数据一致性的逻辑。也就是说，即使你不用外键约束，也要想办法通过应用层面的附加逻辑，来实现外键约束的功能，确保数据的一致性。</p></blockquote> <h3 id="_6-10-阿里开发规范"><a href="#_6-10-阿里开发规范" class="header-anchor">#</a> 6.10 阿里开发规范</h3> <p>【<code>强制</code>】不得使用外键与级联，一切外键概念必须在应用层解决。</p> <p>说明：（概念解释）学生表中的 student_id 是主键，那么成绩表中的 student_id 则为外键。如果更新学生表中的 student_id，同时触发成绩表中的 student_id 更新，即为级联更新。外键与级联更新适用于<code>单机低并发</code>，不适合<code>分布式</code>、<code>高并发集群</code>；级联更新是强阻塞，存在数据库<code>更新风暴</code>的风险；外键影响数据库的<code>插入速度</code>。</p> <h2 id="_7-check-约束"><a href="#_7-check-约束" class="header-anchor">#</a> 7. CHECK 约束</h2> <h3 id="_7-1-作用"><a href="#_7-1-作用" class="header-anchor">#</a> 7.1 作用</h3> <p>检查某个字段的值是否符号xx要求，一般指的是值的范围</p> <h3 id="_2、关键字"><a href="#_2、关键字" class="header-anchor">#</a> 2、关键字</h3> <p>CHECK</p> <h3 id="_3、说明-mysql-5-7-不支持"><a href="#_3、说明-mysql-5-7-不支持" class="header-anchor">#</a> 3、说明：MySQL 5.7 不支持</h3> <p>MySQL5.7 可以使用check约束，但check约束对数据验证没有任何作用。添加数据时，没有任何错误或警告</p> <p>但是<strong>MySQL 8.0中可以使用check约束了</strong>。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table employee(
+	eid int primary key,
+    ename varchar(5),
+    gender char check ('男' or '女')
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into employee values(1,'张三','妖');
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from employee;
++-----+-------+--------+
+| eid | ename | gender |
++-----+-------+--------+
+|   1 | 张三   | 妖     |
++-----+-------+--------+
+1 row in set (0.00 sec)
+</code></pre></div><ul><li>再举例</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE temp(
+id INT AUTO_INCREMENT,
+NAME VARCHAR(20),
+age INT CHECK(age &gt; 20),
+PRIMARY KEY(id)
+);
+</code></pre></div><ul><li>再举例</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>age tinyint check(age &gt;20) 或 sex char(2) check(sex in(‘男’,’女’))
+</code></pre></div><ul><li>再举例</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>CHECK(height&gt;=0 AND height&lt;3)
+</code></pre></div><h2 id="_8-default约束"><a href="#_8-default约束" class="header-anchor">#</a> 8. DEFAULT约束</h2> <h3 id="_8-1-作用"><a href="#_8-1-作用" class="header-anchor">#</a> 8.1 作用</h3> <p>给某个字段/某列指定默认值，一旦设置默认值，在插入数据时，如果此字段没有显式赋值，则赋值为默认值。</p> <h3 id="_8-2-关键字"><a href="#_8-2-关键字" class="header-anchor">#</a> 8.2 关键字</h3> <p>DEFAULT</p> <h3 id="_8-3-如何给字段加默认值"><a href="#_8-3-如何给字段加默认值" class="header-anchor">#</a> 8.3 如何给字段加默认值</h3> <p>（1）建表时</p> <div class="language-mysql extra-class"><pre class="language-text"><code>create table 表名称(
+	字段名  数据类型  primary key,
+    字段名  数据类型  unique key not null,  
+    字段名  数据类型  unique key,
+    字段名  数据类型  not null default 默认值, 
+);
+create table 表名称(
+	字段名  数据类型 default 默认值 ,
+    字段名  数据类型 not null default 默认值,  
+    字段名  数据类型 not null default 默认值,
+    primary key(字段名),
+    unique key(字段名)
+);
+
+说明：默认值约束一般不在唯一键和主键列上加
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>create table employee(
+	eid int primary key,
+    ename varchar(20) not null,
+    gender char default '男',
+    tel char(11) not null default '' #默认是空字符串
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| eid    | int(11)     | NO   | PRI | NULL    |       |
+| ename  | varchar(20) | NO   |     | NULL    |       |
+| gender | char(1)     | YES  |     | 男      |       |
+| tel    | char(11)    | NO   |     |         |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into employee values(1,'汪飞','男','13700102535'); #成功
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from employee;
++-----+-------+--------+-------------+
+| eid | ename | gender | tel         |
++-----+-------+--------+-------------+
+|   1 | 汪飞  | 男     | 13700102535 |
++-----+-------+--------+-------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into employee(eid,ename) values(2,'天琪'); #成功
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; select * from employee;
++-----+-------+--------+-------------+
+| eid | ename | gender | tel         |
++-----+-------+--------+-------------+
+|   1 | 汪飞  | 男     | 13700102535 |
+|   2 | 天琪  | 男     |             |
++-----+-------+--------+-------------+
+2 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>insert into employee(eid,ename) values(3,'二虎');
+#ERROR 1062 (23000): Duplicate entry '' for key 'tel'  
+#如果tel有唯一性约束的话会报错，如果tel没有唯一性约束，可以添加成功
+</code></pre></div><p>再举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>CREATE TABLE myemp(
+id INT AUTO_INCREMENT PRIMARY KEY,
+NAME VARCHAR(15),
+salary DOUBLE(10,2) DEFAULT 2000
+);
+</code></pre></div><p>（2）建表后</p> <div class="language-mysql extra-class"><pre class="language-text"><code>alter table 表名称 modify 字段名 数据类型 default 默认值;
+
+#如果这个字段原来有非空约束，你还保留非空约束，那么在加默认值约束时，还得保留非空约束，否则非空约束就被删除了
+#同理，在给某个字段加非空约束也一样，如果这个字段原来有默认值约束，你想保留，也要在modify语句中保留默认值约束，否则就删除了
+alter table 表名称 modify 字段名 数据类型 default 默认值 not null;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>create table employee(
+	eid int primary key,
+    ename varchar(20),
+    gender char,
+    tel char(11) not null
+);
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| eid    | int(11)     | NO   | PRI | NULL    |       |
+| ename  | varchar(20) | YES  |     | NULL    |       |
+| gender | char(1)     | YES  |     | NULL    |       |
+| tel    | char(11)    | NO   |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table employee modify gender char default '男';  #给gender字段增加默认值约束
+alter table employee modify tel char(11) default ''; #给tel字段增加默认值约束
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| eid    | int(11)     | NO   | PRI | NULL    |       |
+| ename  | varchar(20) | YES  |     | NULL    |       |
+| gender | char(1)     | YES  |     | 男      |       |
+| tel    | char(11)    | YES  |     |         |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table employee modify tel char(11) default ''  not null;#给tel字段增加默认值约束，并保留非空约束
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| eid    | int(11)     | NO   | PRI | NULL    |       |
+| ename  | varchar(20) | YES  |     | NULL    |       |
+| gender | char(1)     | YES  |     | 男      |       |
+| tel    | char(11)    | NO   |     |         |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+</code></pre></div><h3 id="_8-4-如何删除默认值约束"><a href="#_8-4-如何删除默认值约束" class="header-anchor">#</a> 8.4 如何删除默认值约束</h3> <div class="language-mysql extra-class"><pre class="language-text"><code>alter table 表名称 modify 字段名 数据类型 ;#删除默认值约束，也不保留非空约束
+
+alter table 表名称 modify 字段名 数据类型  not null; #删除默认值约束，保留非空约束
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>alter table employee modify gender char; #删除gender字段默认值约束，如果有非空约束，也一并删除
+alter table employee modify tel char(11)  not null;#删除tel字段默认值约束，保留非空约束
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; desc employee;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| eid    | int(11)     | NO   | PRI | NULL    |       |
+| ename  | varchar(20) | YES  |     | NULL    |       |
+| gender | char(1)     | YES  |     | NULL    |       |
+| tel    | char(11)    | NO   |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+</code></pre></div><h2 id="_9-面试"><a href="#_9-面试" class="header-anchor">#</a> 9. 面试</h2> <p><strong>面试1、为什么建表时，加 not null default '' 或 default 0</strong></p> <p>答：不想让表中出现null值。</p> <p><strong>面试2、为什么不想要 null 的值</strong></p> <p>答:（1）不好比较。null是一种特殊值，比较时只能用专门的is null 和 is not null来比较。碰到运算符，通常返回null。</p> <p>​     （2）效率不高。影响提高索引效果。因此，我们往往在建表时 not null default '' 或 default 0</p> <p><strong>面试3、带AUTO_INCREMENT约束的字段值是从1开始的吗？</strong>
+在MySQL中，默认AUTO_INCREMENT的初始值是1，每新增一条记录，字段值自动加1。设置自增属性（AUTO_INCREMENT）的时候，还可以指定第一条插入记录的自增字段的值，这样新插入的记录的自增字段值从初始值开始递增，如在表中插入第一条记录，同时指定id值为5，则以后插入的记录的id值就会从6开始往上增加。添加主键约束时，往往需要设置字段自动增加属性。</p> <p><strong>面试4、并不是每个表都可以任意选择存储引擎？</strong>
+外键约束（FOREIGN KEY）不能跨引擎使用。</p> <p>MySQL支持多种存储引擎，每一个表都可以指定一个不同的存储引擎，需要注意的是：外键约束是用来保证数据的参照完整性的，如果表之间需要关联外键，却指定了不同的存储引擎，那么这些表之间是不能创建外键约束的。所以说，存储引擎的选择也不完全是随意的。</p></div></div>  <div class="page-edit"><!----> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2023/05/18, 14:27:43</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/blogs/pages/b3a365/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">第12章_MySQL数据类型精讲</div></a> <a href="/blogs/pages/745f2d/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">第14章_视图</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blogs/pages/b3a365/" class="prev">第12章_MySQL数据类型精讲</a></span> <span class="next"><a href="/blogs/pages/745f2d/">第14章_视图</a>→
+      </span></p></div></div></div> <!----></main></div> <div class="footer"><div class="icons"><a href="mailto:2942894660@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/gaoziman" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2023-2023
+    <span>Cisyam | MIT License</span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/blogs/assets/js/app.6703720a.js" defer></script><script src="/blogs/assets/js/2.2891cb31.js" defer></script><script src="/blogs/assets/js/41.6e456626.js" defer></script>
+  </body>
+</html>

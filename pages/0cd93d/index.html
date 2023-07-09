@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>第04章_运算符 | Cisyam</title>
+    <meta name="generator" content="VuePress 1.9.2">
+    <link rel="icon" href="/blogs/img/favicon.ico">
+    <link rel="stylesheet" href="/blogs//at.alicdn.com/t/font_3114978_qe0b39no76.css">
+    <script src="https://cdn.wwads.cn/js/makemoney.js" type="text/javascript"></script>
+    <meta name="description" content="一个基于VuePress的 知识管理&amp;博客 主题">
+    <meta name="keywords" content="vuepress,theme,blog,vdoing">
+    <meta name="theme-color" content="#11a8cd">
+    <meta name="wwads-cn-verify" content="6c4b761a28b734fe93831e3fb400ce87">
+    
+    <link rel="preload" href="/blogs/assets/css/0.styles.d190f907.css" as="style"><link rel="preload" href="/blogs/assets/js/app.6703720a.js" as="script"><link rel="preload" href="/blogs/assets/js/2.2891cb31.js" as="script"><link rel="preload" href="/blogs/assets/js/32.d2b68837.js" as="script"><link rel="prefetch" href="/blogs/assets/js/10.29af8a7f.js"><link rel="prefetch" href="/blogs/assets/js/100.c7ec5c9d.js"><link rel="prefetch" href="/blogs/assets/js/11.bdeeba6d.js"><link rel="prefetch" href="/blogs/assets/js/12.713dd16b.js"><link rel="prefetch" href="/blogs/assets/js/13.59a174b0.js"><link rel="prefetch" href="/blogs/assets/js/14.68a58203.js"><link rel="prefetch" href="/blogs/assets/js/15.82a1fdde.js"><link rel="prefetch" href="/blogs/assets/js/16.9c54c3e4.js"><link rel="prefetch" href="/blogs/assets/js/17.11ba4e45.js"><link rel="prefetch" href="/blogs/assets/js/18.2818cf53.js"><link rel="prefetch" href="/blogs/assets/js/19.96755560.js"><link rel="prefetch" href="/blogs/assets/js/20.7481fcc2.js"><link rel="prefetch" href="/blogs/assets/js/21.907b70d0.js"><link rel="prefetch" href="/blogs/assets/js/22.a166ad24.js"><link rel="prefetch" href="/blogs/assets/js/23.77d2dca0.js"><link rel="prefetch" href="/blogs/assets/js/24.aa87f4c6.js"><link rel="prefetch" href="/blogs/assets/js/25.dad97827.js"><link rel="prefetch" href="/blogs/assets/js/26.bb52f77c.js"><link rel="prefetch" href="/blogs/assets/js/27.9e1ea639.js"><link rel="prefetch" href="/blogs/assets/js/28.ba119082.js"><link rel="prefetch" href="/blogs/assets/js/29.18832ed6.js"><link rel="prefetch" href="/blogs/assets/js/3.fefeb4f4.js"><link rel="prefetch" href="/blogs/assets/js/30.b3c42b31.js"><link rel="prefetch" href="/blogs/assets/js/31.4635ac31.js"><link rel="prefetch" href="/blogs/assets/js/33.f7b79f8b.js"><link rel="prefetch" href="/blogs/assets/js/34.ce01b9ce.js"><link rel="prefetch" href="/blogs/assets/js/35.09a87cc8.js"><link rel="prefetch" href="/blogs/assets/js/36.76cf8512.js"><link rel="prefetch" href="/blogs/assets/js/37.d0062b5b.js"><link rel="prefetch" href="/blogs/assets/js/38.7f84a2f0.js"><link rel="prefetch" href="/blogs/assets/js/39.e2188bfb.js"><link rel="prefetch" href="/blogs/assets/js/4.b9356ecc.js"><link rel="prefetch" href="/blogs/assets/js/40.c5791be3.js"><link rel="prefetch" href="/blogs/assets/js/41.6e456626.js"><link rel="prefetch" href="/blogs/assets/js/42.f177def6.js"><link rel="prefetch" href="/blogs/assets/js/43.d522573e.js"><link rel="prefetch" href="/blogs/assets/js/44.6add112a.js"><link rel="prefetch" href="/blogs/assets/js/45.5f2862b3.js"><link rel="prefetch" href="/blogs/assets/js/46.bbdad8ea.js"><link rel="prefetch" href="/blogs/assets/js/47.4b8eccad.js"><link rel="prefetch" href="/blogs/assets/js/48.790c3f48.js"><link rel="prefetch" href="/blogs/assets/js/49.7a6b72f8.js"><link rel="prefetch" href="/blogs/assets/js/5.dbc14407.js"><link rel="prefetch" href="/blogs/assets/js/50.1d07348b.js"><link rel="prefetch" href="/blogs/assets/js/51.baf090ad.js"><link rel="prefetch" href="/blogs/assets/js/52.aa82caa4.js"><link rel="prefetch" href="/blogs/assets/js/53.54b14a71.js"><link rel="prefetch" href="/blogs/assets/js/54.1c49a9fe.js"><link rel="prefetch" href="/blogs/assets/js/55.e745f470.js"><link rel="prefetch" href="/blogs/assets/js/56.66db2bce.js"><link rel="prefetch" href="/blogs/assets/js/57.cfbf7fad.js"><link rel="prefetch" href="/blogs/assets/js/58.7c34f72a.js"><link rel="prefetch" href="/blogs/assets/js/59.2411d34a.js"><link rel="prefetch" href="/blogs/assets/js/6.8e27846d.js"><link rel="prefetch" href="/blogs/assets/js/60.bd4c3a01.js"><link rel="prefetch" href="/blogs/assets/js/61.376a94a9.js"><link rel="prefetch" href="/blogs/assets/js/62.e1ed876a.js"><link rel="prefetch" href="/blogs/assets/js/63.519e802c.js"><link rel="prefetch" href="/blogs/assets/js/64.d1de0951.js"><link rel="prefetch" href="/blogs/assets/js/65.68804e09.js"><link rel="prefetch" href="/blogs/assets/js/66.fa157ac3.js"><link rel="prefetch" href="/blogs/assets/js/67.3ac0f5f0.js"><link rel="prefetch" href="/blogs/assets/js/68.418729c4.js"><link rel="prefetch" href="/blogs/assets/js/69.27b1a4cd.js"><link rel="prefetch" href="/blogs/assets/js/7.8503034e.js"><link rel="prefetch" href="/blogs/assets/js/70.ccbe6f1e.js"><link rel="prefetch" href="/blogs/assets/js/71.9bd4782d.js"><link rel="prefetch" href="/blogs/assets/js/72.cd2999cc.js"><link rel="prefetch" href="/blogs/assets/js/73.79fc8d67.js"><link rel="prefetch" href="/blogs/assets/js/74.19768d7a.js"><link rel="prefetch" href="/blogs/assets/js/75.61498db4.js"><link rel="prefetch" href="/blogs/assets/js/76.2c210d98.js"><link rel="prefetch" href="/blogs/assets/js/77.673ebfb2.js"><link rel="prefetch" href="/blogs/assets/js/78.efeb93e2.js"><link rel="prefetch" href="/blogs/assets/js/79.892e6e6f.js"><link rel="prefetch" href="/blogs/assets/js/8.1477cb30.js"><link rel="prefetch" href="/blogs/assets/js/80.cc1efe6f.js"><link rel="prefetch" href="/blogs/assets/js/81.9029edfe.js"><link rel="prefetch" href="/blogs/assets/js/82.ebfed7ad.js"><link rel="prefetch" href="/blogs/assets/js/83.8c745cc8.js"><link rel="prefetch" href="/blogs/assets/js/84.2d5bf3dd.js"><link rel="prefetch" href="/blogs/assets/js/85.655b076a.js"><link rel="prefetch" href="/blogs/assets/js/86.0b926ace.js"><link rel="prefetch" href="/blogs/assets/js/87.39251ad6.js"><link rel="prefetch" href="/blogs/assets/js/88.9031ffae.js"><link rel="prefetch" href="/blogs/assets/js/89.9a2bbb31.js"><link rel="prefetch" href="/blogs/assets/js/9.c71f6b55.js"><link rel="prefetch" href="/blogs/assets/js/90.3fabd32f.js"><link rel="prefetch" href="/blogs/assets/js/91.51ad2e66.js"><link rel="prefetch" href="/blogs/assets/js/92.dff42051.js"><link rel="prefetch" href="/blogs/assets/js/93.4f7c903c.js"><link rel="prefetch" href="/blogs/assets/js/94.7b8dc99c.js"><link rel="prefetch" href="/blogs/assets/js/95.5b05ce73.js"><link rel="prefetch" href="/blogs/assets/js/96.c252c42c.js"><link rel="prefetch" href="/blogs/assets/js/97.29426949.js"><link rel="prefetch" href="/blogs/assets/js/98.b857e1ec.js"><link rel="prefetch" href="/blogs/assets/js/99.52a327c1.js">
+    <link rel="stylesheet" href="/blogs/assets/css/0.styles.d190f907.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blogs/" class="home-link router-link-active"><img src="/blogs/img/logo.png" alt="Cisyam" class="logo"> <span class="site-name can-hide">Cisyam</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blogs/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="程序日常" class="dropdown-title"><!----> <span class="title" style="display:;">程序日常</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>日常配置</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/0ec974/" class="nav-link">系统重装日记</a></li><li class="dropdown-subitem"><a href="/blogs/pages/63554c/" class="nav-link">IDEA日常配置和操作小结</a></li><li class="dropdown-subitem"><a href="/blogs/pages/97b3a1/" class="nav-link">在IDEA中配置Git的Push键</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8cab39/" class="nav-link">Git的安装以及SSH配置</a></li><li class="dropdown-subitem"><a href="/blogs/pages/5e65f3/" class="nav-link">win11下的Maven安装配置教程</a></li><li class="dropdown-subitem"><a href="/blogs/pages/bc4cea/" class="nav-link">基于jmeter完成压测</a></li><li class="dropdown-subitem"><a href="/blogs/pages/513ac4/" class="nav-link">Typora+PicGo+阿里云OSS搭建博客图床</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79620e/" class="nav-link">Git图文使用教程详解(一)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/7e3ca6/" class="nav-link">Git图文使用教程详解(二)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/c6a5fd/" class="nav-link">Git图文使用教程详解(三)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9f9143/" class="nav-link">带你认识Hutool工具包</a></li></ul></li><li class="dropdown-item"><h4>Bug修复</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/c1d525/" class="nav-link">Java连接SqlServer错误</a></li></ul></li><li class="dropdown-item"><h4>其他学习</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/58d18b/" class="nav-link">计算机相关常见英语单词,带读音!</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a0bf4c/" class="nav-link">常用emoji表情包</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java基础" class="dropdown-title"><!----> <span class="title" style="display:;">Java基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/882008/" class="nav-link">Java开发环境的搭建</a></li><li class="dropdown-item"><!----> <a href="/blogs/pages/7263a2/" class="nav-link">Java基础语法</a></li><li class="dropdown-item"><h4>Java集合</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/882008/" class="nav-link">初始Java基础知识</a></li></ul></li><li class="dropdown-item"><h4>Java知识点</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/868901/" class="nav-link">Thymeleaf一篇就够了</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java进阶" class="dropdown-title"><!----> <span class="title" style="display:;">Java进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/e32cf5/" class="nav-link">泛型就这么简单</a></li><li class="dropdown-item"><h4>流</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/918085/" class="nav-link">初步认识IO流</a></li></ul></li><li class="dropdown-item"><h4>JVM</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8b1290/" class="nav-link">Java内存区域介绍以及JDK1.8内存变化</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><!----> <span class="title" style="display:;">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>MySQL基础知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/6ca3af/" class="nav-link">数据库原理及应用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/460b04/" class="nav-link">MySQL 8.0 绿色版安装</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL基础篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/37fc57/" class="nav-link">第01章_数据库概述</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f3f3ab/" class="nav-link">第02章_MySQL环境搭建</a></li><li class="dropdown-subitem"><a href="/blogs/pages/1e92f0/" class="nav-link">第03章_基本的SELECT语句</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0cd93d/" aria-current="page" class="nav-link router-link-exact-active router-link-active">第04章_运算符</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f60350/" class="nav-link">第05章_排序与分页</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79f1c4/" class="nav-link">第06章_多表查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9757a1/" class="nav-link">第07章_单行函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e8846a/" class="nav-link">第08章_聚合函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0ececa/" class="nav-link">第09章_子查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667605/" class="nav-link">第10章_创建和管理表</a></li><li class="dropdown-subitem"><a href="/blogs/pages/07f3df/" class="nav-link">第11章_数据处理之增删改</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b3a365/" class="nav-link">第12章_MySQL数据类型精讲</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6bfb13/" class="nav-link">第13章_约束</a></li><li class="dropdown-subitem"><a href="/blogs/pages/745f2d/" class="nav-link">第14章_视图</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8c180e/" class="nav-link">第15章_存储过程与函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/566d1d/" class="nav-link">第16章_变量、流程控制与游标</a></li><li class="dropdown-subitem"><a href="/blogs/pages/afb0d0/" class="nav-link">第17章_触发器</a></li><li class="dropdown-subitem"><a href="/blogs/pages/15bba8/" class="nav-link">第18章_MySQL8其它新特性</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL高级篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/80d360/" class="nav-link">第01章 Linux下MySQL的安装与使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f532a4/" class="nav-link">第02章 MySQL的数据目录</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5fa3c/" class="nav-link">第03章 用户与权限管理</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b462b5/" class="nav-link">第04章_逻辑架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5b6cd/" class="nav-link">第05章_存储引擎</a></li><li class="dropdown-subitem"><a href="/blogs/pages/4eb165/" class="nav-link">第06章_索引的数据结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/85a02c/" class="nav-link">第7章_InnoDB数据存储结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/badf0e/" class="nav-link">第8章_索引的创建与设计原则</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0e9cf5/" class="nav-link">第09章_性能分析工具的使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/baf28a/" class="nav-link">第10章_索引优化与查询优化</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a30800/" class="nav-link">第11章_数据库的设计规范</a></li><li class="dropdown-subitem"><a href="/blogs/pages/453178/" class="nav-link">第12章_数据库其它调优策略</a></li><li class="dropdown-subitem"><a href="/blogs/pages/2f2499/" class="nav-link">第13章_事务基础知识</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e14c2c/" class="nav-link">第14章_MySQL事务日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/52fd96/" class="nav-link">第15章_锁</a></li><li class="dropdown-subitem"><a href="/blogs/pages/dc28af/" class="nav-link">第16章_多版本并发控制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0aeb1a/" class="nav-link">第17章_其他数据库日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e50c30/" class="nav-link">第18章_主从复制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/92db10/" class="nav-link">第19章_数据库备份与恢复</a></li></ul></li><li class="dropdown-item"><h4>MySQL进阶知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/ad9574/" class="nav-link">MySQL里的那些日志们</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><!----> <span class="title" style="display:;">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/b40868/" class="nav-link"> SSM整合完整流程</a></li><li class="dropdown-item"><h4>MyBatis</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li><li class="dropdown-item"><h4>Spring</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/e6482d/" class="nav-link">Spring5学习笔记——工厂</a></li><li class="dropdown-subitem"><a href="/blogs/pages/99543d/" class="nav-link">Spring5学习笔记——AOP</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e630fa/" class="nav-link">Spring5学习笔记——持久层整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667215/" class="nav-link">Spring5学习笔记——MVC框架整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/398673/" class="nav-link">Spring5学习笔记——注解编程</a></li></ul></li><li class="dropdown-item"><h4>SpringMVC</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="中间件" class="dropdown-title"><!----> <span class="title" style="display:;">中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/52d5c3/" class="nav-link">中间件</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="微服务" class="dropdown-title"><!----> <span class="title" style="display:;">微服务</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>初始微服务</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8c6be2/" class="nav-link">初步了解SpringCloud微服务架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6fc14f/" class="nav-link">认识SpringCloud核心组件</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0f8ce6/" class="nav-link">Ribbon和 Nacos服务注册中心</a></li><li class="dropdown-subitem"><a href="/blogs/pages/59a269/" class="nav-link">微服务远程调用openFeign整合</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机基础" class="dropdown-title"><!----> <span class="title" style="display:;">计算机基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/a2a23c/" class="nav-link">程序员必知必会之计算机系统概论</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Linux" class="dropdown-title"><!----> <span class="title" style="display:;">Linux</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/5316bc/" class="nav-link">Linux命令笔记</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试题" class="dropdown-title"><!----> <span class="title" style="display:;">面试题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/964e0e/" class="nav-link">面试题</a></li></ul></div></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/blogs/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="程序日常" class="dropdown-title"><!----> <span class="title" style="display:;">程序日常</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>日常配置</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/0ec974/" class="nav-link">系统重装日记</a></li><li class="dropdown-subitem"><a href="/blogs/pages/63554c/" class="nav-link">IDEA日常配置和操作小结</a></li><li class="dropdown-subitem"><a href="/blogs/pages/97b3a1/" class="nav-link">在IDEA中配置Git的Push键</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8cab39/" class="nav-link">Git的安装以及SSH配置</a></li><li class="dropdown-subitem"><a href="/blogs/pages/5e65f3/" class="nav-link">win11下的Maven安装配置教程</a></li><li class="dropdown-subitem"><a href="/blogs/pages/bc4cea/" class="nav-link">基于jmeter完成压测</a></li><li class="dropdown-subitem"><a href="/blogs/pages/513ac4/" class="nav-link">Typora+PicGo+阿里云OSS搭建博客图床</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79620e/" class="nav-link">Git图文使用教程详解(一)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/7e3ca6/" class="nav-link">Git图文使用教程详解(二)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/c6a5fd/" class="nav-link">Git图文使用教程详解(三)</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9f9143/" class="nav-link">带你认识Hutool工具包</a></li></ul></li><li class="dropdown-item"><h4>Bug修复</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/c1d525/" class="nav-link">Java连接SqlServer错误</a></li></ul></li><li class="dropdown-item"><h4>其他学习</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/58d18b/" class="nav-link">计算机相关常见英语单词,带读音!</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a0bf4c/" class="nav-link">常用emoji表情包</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java基础" class="dropdown-title"><!----> <span class="title" style="display:;">Java基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/882008/" class="nav-link">Java开发环境的搭建</a></li><li class="dropdown-item"><!----> <a href="/blogs/pages/7263a2/" class="nav-link">Java基础语法</a></li><li class="dropdown-item"><h4>Java集合</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/882008/" class="nav-link">初始Java基础知识</a></li></ul></li><li class="dropdown-item"><h4>Java知识点</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/868901/" class="nav-link">Thymeleaf一篇就够了</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java进阶" class="dropdown-title"><!----> <span class="title" style="display:;">Java进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/e32cf5/" class="nav-link">泛型就这么简单</a></li><li class="dropdown-item"><h4>流</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/918085/" class="nav-link">初步认识IO流</a></li></ul></li><li class="dropdown-item"><h4>JVM</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8b1290/" class="nav-link">Java内存区域介绍以及JDK1.8内存变化</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><!----> <span class="title" style="display:;">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>MySQL基础知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/6ca3af/" class="nav-link">数据库原理及应用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/460b04/" class="nav-link">MySQL 8.0 绿色版安装</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL基础篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/37fc57/" class="nav-link">第01章_数据库概述</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f3f3ab/" class="nav-link">第02章_MySQL环境搭建</a></li><li class="dropdown-subitem"><a href="/blogs/pages/1e92f0/" class="nav-link">第03章_基本的SELECT语句</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0cd93d/" aria-current="page" class="nav-link router-link-exact-active router-link-active">第04章_运算符</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f60350/" class="nav-link">第05章_排序与分页</a></li><li class="dropdown-subitem"><a href="/blogs/pages/79f1c4/" class="nav-link">第06章_多表查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/9757a1/" class="nav-link">第07章_单行函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e8846a/" class="nav-link">第08章_聚合函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0ececa/" class="nav-link">第09章_子查询</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667605/" class="nav-link">第10章_创建和管理表</a></li><li class="dropdown-subitem"><a href="/blogs/pages/07f3df/" class="nav-link">第11章_数据处理之增删改</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b3a365/" class="nav-link">第12章_MySQL数据类型精讲</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6bfb13/" class="nav-link">第13章_约束</a></li><li class="dropdown-subitem"><a href="/blogs/pages/745f2d/" class="nav-link">第14章_视图</a></li><li class="dropdown-subitem"><a href="/blogs/pages/8c180e/" class="nav-link">第15章_存储过程与函数</a></li><li class="dropdown-subitem"><a href="/blogs/pages/566d1d/" class="nav-link">第16章_变量、流程控制与游标</a></li><li class="dropdown-subitem"><a href="/blogs/pages/afb0d0/" class="nav-link">第17章_触发器</a></li><li class="dropdown-subitem"><a href="/blogs/pages/15bba8/" class="nav-link">第18章_MySQL8其它新特性</a></li></ul></li><li class="dropdown-item"><h4>康师傅MySQL高级篇</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/80d360/" class="nav-link">第01章 Linux下MySQL的安装与使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/f532a4/" class="nav-link">第02章 MySQL的数据目录</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5fa3c/" class="nav-link">第03章 用户与权限管理</a></li><li class="dropdown-subitem"><a href="/blogs/pages/b462b5/" class="nav-link">第04章_逻辑架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a5b6cd/" class="nav-link">第05章_存储引擎</a></li><li class="dropdown-subitem"><a href="/blogs/pages/4eb165/" class="nav-link">第06章_索引的数据结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/85a02c/" class="nav-link">第7章_InnoDB数据存储结构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/badf0e/" class="nav-link">第8章_索引的创建与设计原则</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0e9cf5/" class="nav-link">第09章_性能分析工具的使用</a></li><li class="dropdown-subitem"><a href="/blogs/pages/baf28a/" class="nav-link">第10章_索引优化与查询优化</a></li><li class="dropdown-subitem"><a href="/blogs/pages/a30800/" class="nav-link">第11章_数据库的设计规范</a></li><li class="dropdown-subitem"><a href="/blogs/pages/453178/" class="nav-link">第12章_数据库其它调优策略</a></li><li class="dropdown-subitem"><a href="/blogs/pages/2f2499/" class="nav-link">第13章_事务基础知识</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e14c2c/" class="nav-link">第14章_MySQL事务日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/52fd96/" class="nav-link">第15章_锁</a></li><li class="dropdown-subitem"><a href="/blogs/pages/dc28af/" class="nav-link">第16章_多版本并发控制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0aeb1a/" class="nav-link">第17章_其他数据库日志</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e50c30/" class="nav-link">第18章_主从复制</a></li><li class="dropdown-subitem"><a href="/blogs/pages/92db10/" class="nav-link">第19章_数据库备份与恢复</a></li></ul></li><li class="dropdown-item"><h4>MySQL进阶知识</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/ad9574/" class="nav-link">MySQL里的那些日志们</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><!----> <span class="title" style="display:;">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/b40868/" class="nav-link"> SSM整合完整流程</a></li><li class="dropdown-item"><h4>MyBatis</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li><li class="dropdown-item"><h4>Spring</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/e6482d/" class="nav-link">Spring5学习笔记——工厂</a></li><li class="dropdown-subitem"><a href="/blogs/pages/99543d/" class="nav-link">Spring5学习笔记——AOP</a></li><li class="dropdown-subitem"><a href="/blogs/pages/e630fa/" class="nav-link">Spring5学习笔记——持久层整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/667215/" class="nav-link">Spring5学习笔记——MVC框架整合</a></li><li class="dropdown-subitem"><a href="/blogs/pages/398673/" class="nav-link">Spring5学习笔记——注解编程</a></li></ul></li><li class="dropdown-item"><h4>SpringMVC</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/b40868/" class="nav-link">框架</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="中间件" class="dropdown-title"><!----> <span class="title" style="display:;">中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/52d5c3/" class="nav-link">中间件</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="微服务" class="dropdown-title"><!----> <span class="title" style="display:;">微服务</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>初始微服务</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blogs/pages/8c6be2/" class="nav-link">初步了解SpringCloud微服务架构</a></li><li class="dropdown-subitem"><a href="/blogs/pages/6fc14f/" class="nav-link">认识SpringCloud核心组件</a></li><li class="dropdown-subitem"><a href="/blogs/pages/0f8ce6/" class="nav-link">Ribbon和 Nacos服务注册中心</a></li><li class="dropdown-subitem"><a href="/blogs/pages/59a269/" class="nav-link">微服务远程调用openFeign整合</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机基础" class="dropdown-title"><!----> <span class="title" style="display:;">计算机基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/a2a23c/" class="nav-link">程序员必知必会之计算机系统概论</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Linux" class="dropdown-title"><!----> <span class="title" style="display:;">Linux</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/5316bc/" class="nav-link">Linux命令笔记</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试题" class="dropdown-title"><!----> <span class="title" style="display:;">面试题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/pages/964e0e/" class="nav-link">面试题</a></li></ul></div></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav> <div class="sidebar-slot sidebar-slot-top">
+  <a href="http://apifox.cn/a103xugaoyi" target="_blank">
+    <img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/431669861564_.2470ykdcpbds.jpg" alt="npm" class="no-zoom" style="width: 100%;border-radius: 2px;">
+    <p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>
+  </a></div> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>MySQL基础知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/6ca3af/" class="sidebar-link">数据库原理及应用</a></li><li><a href="/blogs/pages/460b04/" class="sidebar-link">MySQL 8.0 绿色版安装</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>康师傅MySQL</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading open"><span>基础篇</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/37fc57/" class="sidebar-link">第01章_数据库概述</a></li><li><a href="/blogs/pages/f3f3ab/" class="sidebar-link">第02章_MySQL环境搭建</a></li><li><a href="/blogs/pages/1e92f0/" class="sidebar-link">第03章_基本的SELECT语句</a></li><li><a href="/blogs/pages/0cd93d/" aria-current="page" class="active sidebar-link">第04章_运算符</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/blogs/pages/0cd93d/#_1-算术运算符" class="sidebar-link">1. 算术运算符</a></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/0cd93d/#_2-比较运算符" class="sidebar-link">2. 比较运算符</a></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/0cd93d/#_3-逻辑运算符" class="sidebar-link">3. 逻辑运算符</a></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/0cd93d/#_4-位运算符" class="sidebar-link">4. 位运算符</a></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/0cd93d/#_5-运算符的优先级" class="sidebar-link">5. 运算符的优先级</a></li><li class="sidebar-sub-header level2"><a href="/blogs/pages/0cd93d/#拓展-使用正则表达式查询" class="sidebar-link">拓展：使用正则表达式查询</a></li></ul></li><li><a href="/blogs/pages/f60350/" class="sidebar-link">第05章_排序与分页</a></li><li><a href="/blogs/pages/79f1c4/" class="sidebar-link">第06章_多表查询</a></li><li><a href="/blogs/pages/9757a1/" class="sidebar-link">第07章_单行函数</a></li><li><a href="/blogs/pages/e8846a/" class="sidebar-link">第08章_聚合函数</a></li><li><a href="/blogs/pages/0ececa/" class="sidebar-link">第09章_子查询</a></li><li><a href="/blogs/pages/667605/" class="sidebar-link">第10章_创建和管理表</a></li><li><a href="/blogs/pages/07f3df/" class="sidebar-link">第11章_数据处理之增删改</a></li><li><a href="/blogs/pages/b3a365/" class="sidebar-link">第12章_MySQL数据类型精讲</a></li><li><a href="/blogs/pages/6bfb13/" class="sidebar-link">第13章_约束</a></li><li><a href="/blogs/pages/745f2d/" class="sidebar-link">第14章_视图</a></li><li><a href="/blogs/pages/8c180e/" class="sidebar-link">第15章_存储过程与函数</a></li><li><a href="/blogs/pages/566d1d/" class="sidebar-link">第16章_变量、流程控制与游标</a></li><li><a href="/blogs/pages/afb0d0/" class="sidebar-link">第17章_触发器</a></li><li><a href="/blogs/pages/15bba8/" class="sidebar-link">第18章_MySQL8其它新特性</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>高级篇</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/80d360/" class="sidebar-link">第01章 Linux下MySQL的安装与使用</a></li><li><a href="/blogs/pages/f532a4/" class="sidebar-link">第02章 MySQL的数据目录</a></li><li><a href="/blogs/pages/a5fa3c/" class="sidebar-link">第03章 用户与权限管理</a></li><li><a href="/blogs/pages/b462b5/" class="sidebar-link">第04章_逻辑架构</a></li><li><a href="/blogs/pages/a5b6cd/" class="sidebar-link">第05章_存储引擎</a></li><li><a href="/blogs/pages/4eb165/" class="sidebar-link">第06章_索引的数据结构</a></li><li><a href="/blogs/pages/85a02c/" class="sidebar-link">第7章_InnoDB数据存储结构</a></li><li><a href="/blogs/pages/badf0e/" class="sidebar-link">第8章_索引的创建与设计原则</a></li><li><a href="/blogs/pages/0e9cf5/" class="sidebar-link">第09章_性能分析工具的使用</a></li><li><a href="/blogs/pages/baf28a/" class="sidebar-link">第10章_索引优化与查询优化</a></li><li><a href="/blogs/pages/a30800/" class="sidebar-link">第11章_数据库的设计规范</a></li><li><a href="/blogs/pages/453178/" class="sidebar-link">第12章_数据库其它调优策略</a></li><li><a href="/blogs/pages/2f2499/" class="sidebar-link">第13章_事务基础知识</a></li><li><a href="/blogs/pages/e14c2c/" class="sidebar-link">第14章_MySQL事务日志</a></li><li><a href="/blogs/pages/52fd96/" class="sidebar-link">第15章_锁</a></li><li><a href="/blogs/pages/dc28af/" class="sidebar-link">第16章_多版本并发控制</a></li><li><a href="/blogs/pages/0aeb1a/" class="sidebar-link">第17章_其他数据库日志</a></li><li><a href="/blogs/pages/e50c30/" class="sidebar-link">第18章_主从复制</a></li><li><a href="/blogs/pages/92db10/" class="sidebar-link">第19章_数据库备份与恢复</a></li></ul></section></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>MySQL进阶知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/pages/ad9574/" class="sidebar-link">MySQL里的那些日志们</a></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/blogs/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><span data-v-06225672>数据库</span></li><li data-v-06225672><span data-v-06225672>康师傅MySQL</span></li><li data-v-06225672><span data-v-06225672>基础篇</span></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/gaoziman" target="_blank" title="作者" class="beLink" data-v-06225672>Cisyam</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2023-05-18</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGpJREFUSA3tVVtoXFUU3fvOI53UlmCaKIFmwEhsE7QK0ipFEdHEKpXaZGrp15SINsXUWvBDpBgQRKi0+KKoFeJHfZA+ED9KKoIU2gYD9UejTW4rVIzm0VSTziPzuNu1z507dibTTjL4U/DAzLn3nL3X2o91ziX6f9wMFdh6Jvbm9nNSV0msViVO6tN1Rm7NMu2OpeJ9lWBUTDxrJbYTS0hInuwciu9eLHlFxCLCZEk3MegsJmZ5K/JD6t7FkFdEvGUo1g7qJoG3MHImqRIn8/nzY1K9UPKKiJmtnUqHVE3Gbuay6vJE/N2FEmuxFjW2nUuE0yQXRRxLiTUAzs36zhZvOXJPdX850EVnnLZkB8prodQoM5JGj7Xk2mvC7JB8tG04Ef5PiXtG0UtxupRQSfTnBoCy554x18yJHI6I+G5Eru4LHmPJZEQsrvPUbMiA8G/WgMK7w7I+ez7++o2ANfbrjvaOl1tFMs+htG3IrZH9/hDX1Pr8Tc0UvH8tcX29KzAgIGcEkINyW5BF9x891hw6VYqgJHEk0huccS7vh3C6gTiODL+26huuBtbct8eZnqLML8PkxGYpuPZBqtqwkSjgc4mB5gbgig5i+y0UDK35LMxXisn9xQtK+nd26gTIHsHe/oblK/b29fUmN/8Y+9jAQrnBp56m1LcDlDp9irKTExSKduXJVWSqdBMA08pEJnEIOB3FPPMybu/oeV8zFeYN3xx576Q6RH+VmplE4ncQV5v+5rzSoyOU7PuEAg8g803PwBJ0CExno/jcMbN8tONYeOmHiuUNryvm3fRUy4tMPVLdAGkUhNWuggGrJcXPv+ouCjz0MKUHz1J2/E8IC9nqTabcxgaBYM0hPhD5Y65FsbxRQKxCQrDjDctW7PUM3HuZunFyifSAqEfuzCp48Il24luWUWZoyJCaPR82jE0+kFA643wRFVni4RYSq3ohJO2pZ7B5dO4xkDWbEpossJPLSrPjYID8rS2UHTlvyNxqIGsg674XJJ7vnh5L7PNwC4hh2sjCI96mzszOTpxLF0T7l88Yz7lAuK6OnL8gXLOnTvpzSb22YG8W7us3jSebFHeeqnXRG1vt+MoUM84LQIBmMsCTAcOauTh0T0l0neQK7m2bLMt2mGxU3HYssS0J2cdv5wljlPsrIuZLAG/2DOZIXgCYT8uMGZN+e2kSirfxZOPCsC0f24nTZzspnVn9VePS1Z5vubmAGGXG8ZFno9Hel0yfA5ZPhF7Dh972BQJ2qCpgH67lmWtBYbvk6sz02wjky2vXyz0XErP/kFB619js1BtwfOV4OPRqOQBjy3Qbk18vigUPPSD5ceHnwck7W9bhAqZdd7SuG7w4/P2F/GaJh8c7e9qgow+Q7cGBo+98WsLkuktFqiZabtXuQTu/Y5ETbR0v7tNSFnvrmu6pjdoan2KjMu8q/Hmj1EfCO2ZGfEIbIXKUlw8qaX9/b2oeSJmFksSeT/Fn0V3nSypChh4Gjh74ybO9aeZ/AN2dwciu2/MhAAAAAElFTkSuQmCC">第04章_运算符<!----></h1> <div class="page-slot page-slot-top">
+    <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+    <style>
+      .page-wwads{
+        width:100%!important;
+        min-height: 0;
+        margin: 0;
+      }
+      .page-wwads .wwads-img img{
+        width:80px!important;
+      }
+      .page-wwads .wwads-poweredby{
+        width: 40px;
+        position: absolute;
+        right: 25px;
+        bottom: 3px;
+      }
+      .wwads-content .wwads-text, .page-wwads .wwads-text{
+        height: 100%;
+        padding-top: 5px;
+        display: block;
+      }
+  </style>
+  </div> <div class="theme-vdoing-content content__default"><p>配套视频参考：<a href="https://www.bilibili.com/video/BV1iq4y1u7vj?p=1&amp;vd_source=cea816a08805c218ac4390ae9b61ae31" target="_blank" rel="noopener noreferrer">MySQL数据库天花板--康师傅<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <hr> <h2 id="_1-算术运算符"><a href="#_1-算术运算符" class="header-anchor">#</a> 1. 算术运算符</h2> <p>算术运算符主要用于数学运算，其可以连接运算符前后的两个数值或表达式，对数值或表达式进行加（+）、减（-）、乘（*）、除（/）和取模（%）运算。</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012100749193.png" alt="image-20211012100749193"></p> <p><strong>1．加法与减法运算符</strong></p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 100, 100 + 0, 100 - 0, 100 + 50, 100 + 50 -30, 100 + 35.5, 100 - 35.5 FROM dual;
++-----+---------+---------+----------+--------------+------------+------------+
+| 100 | 100 + 0 | 100 - 0 | 100 + 50 | 100 + 50 -30 | 100 + 35.5 | 100 - 35.5 |
++-----+---------+---------+----------+--------------+------------+------------+
+| 100 |     100 |     100 |      150 |          120 |      135.5 |       64.5 |
++-----+---------+---------+----------+--------------+------------+------------+
+1 row in set (0.00 sec)
+</code></pre></div><p>由运算结果可以得出如下结论：</p> <blockquote><ul><li>一个整数类型的值对整数进行加法和减法操作，结果还是一个整数；</li> <li>一个整数类型的值对浮点数进行加法和减法操作，结果是一个浮点数；</li> <li>加法和减法的优先级相同，进行先加后减操作与进行先减后加操作的结果是一样的；</li> <li>在Java中，+的左右两边如果有字符串，那么表示字符串的拼接。但是在MySQL中+只表示数值相加。如果遇到非数值类型，先尝试转成数值，如果转失败，就按0计算。（补充：MySQL中字符串拼接要使用字符串函数CONCAT()实现）</li></ul></blockquote> <p><strong>2．乘法与除法运算符</strong></p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 100, 100 * 1, 100 * 1.0, 100 / 1.0, 100 / 2,100 + 2 * 5 / 2,100 /3, 100 DIV 0 FROM dual;
++-----+---------+-----------+-----------+---------+-----------------+---------+-----------+
+| 100 | 100 * 1 | 100 * 1.0 | 100 / 1.0 | 100 / 2 | 100 + 2 * 5 / 2 | 100 /3  | 100 DIV 0 |
++-----+---------+-----------+-----------+---------+-----------------+---------+-----------+
+| 100 |     100 |     100.0 |  100.0000 | 50.0000 |        105.0000 | 33.3333 |      NULL |
++-----+---------+-----------+-----------+---------+-----------------+---------+-----------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#计算出员工的年基本工资
+SELECT employee_id,salary,salary * 12 annual_sal 
+FROM employees;
+</code></pre></div><p>由运算结果可以得出如下结论：</p> <blockquote><ul><li>一个数乘以整数1和除以整数1后仍得原数；</li> <li>一个数乘以浮点数1和除以浮点数1后变成浮点数，数值与原数相等；</li> <li>一个数除以整数后，不管是否能除尽，结果都为一个浮点数；</li> <li>一个数除以另一个数，除不尽时，结果为一个浮点数，并保留到小数点后4位；</li> <li>乘法和除法的优先级相同，进行先乘后除操作与先除后乘操作，得出的结果相同。</li> <li>在数学运算中，0不能用作除数，在MySQL中，一个数除以0为NULL。</li></ul></blockquote> <p><strong>3．求模（求余）运算符</strong>
+将t22表中的字段i对3和5进行求模（求余）运算。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 12 % 3, 12 MOD 5 FROM dual;
++--------+----------+
+| 12 % 3 | 12 MOD 5 |
++--------+----------+
+|      0 |        2 |
++--------+----------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#筛选出employee_id是偶数的员工
+SELECT * FROM employees
+WHERE employee_id MOD 2 = 0;
+</code></pre></div><p>可以看到，100对3求模后的结果为3，对5求模后的结果为0。</p> <h2 id="_2-比较运算符"><a href="#_2-比较运算符" class="header-anchor">#</a> 2. 比较运算符</h2> <p>比较运算符用来对表达式左边的操作数和右边的操作数进行比较，比较的结果为真则返回1，比较的结果为假则返回0，其他情况则返回NULL。</p> <p>比较运算符经常被用来作为SELECT查询语句的条件来使用，返回符合条件的结果记录。</p> <img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012101110021.png" alt="image-20211012101110021"> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012104955094.png" alt="image-20211012104955094"></p> <p><strong>1．等号运算符</strong></p> <ul><li><p>等号运算符（=）判断等号两边的值、字符串或表达式是否相等，如果相等则返回1，不相等则返回0。</p></li> <li><p>在使用等号运算符时，遵循如下规则：</p> <ul><li>如果等号两边的值、字符串或表达式都为字符串，则MySQL会按照字符串进行比较，其比较的是每个字符串中字符的ANSI编码是否相等。</li> <li>如果等号两边的值都是整数，则MySQL会按照整数来比较两个值的大小。</li> <li>如果等号两边的值一个是整数，另一个是字符串，则MySQL会将字符串转化为数字进行比较。</li> <li>如果等号两边的值、字符串或表达式中有一个为NULL，则比较结果为NULL。</li></ul></li> <li><p>对比：SQL中赋值符号使用 :=</p></li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 = 1, 1 = '1', 1 = 0, 'a' = 'a', (5 + 3) = (2 + 6), '' = NULL , NULL = NULL; 
++-------+---------+-------+-----------+-------------------+-----------+-------------+
+| 1 = 1 | 1 = '1' | 1 = 0 | 'a' = 'a' | (5 + 3) = (2 + 6) | '' = NULL | NULL = NULL |
++-------+---------+-------+-----------+-------------------+-----------+-------------+
+|    1  |     1   |   0   |      1    |             1     |    NULL   |        NULL  |
++-------+---------+-------+-----------+-------------------+-----------+-------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 = 2, 0 = 'abc', 1 = 'abc' FROM dual;
++-------+-----------+-----------+
+| 1 = 2 | 0 = 'abc' | 1 = 'abc' |
++-------+-----------+-----------+
+|     0 |         1 |         0 |
++-------+-----------+-----------+
+1 row in set, 2 warnings (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#查询salary=10000，注意在Java中比较是==
+SELECT employee_id,salary FROM employees WHERE salary = 10000;
+</code></pre></div><p><strong>2．安全等于运算符</strong>
+安全等于运算符（&lt;=&gt;）与等于运算符（=）的作用是相似的，<code>唯一的区别</code>是‘&lt;=&gt;’可以用来对NULL进行判断。在两个操作数均为NULL时，其返回值为1，而不为NULL；当一个操作数为NULL时，其返回值为0，而不为NULL。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 &lt;=&gt; '1', 1 &lt;=&gt; 0, 'a' &lt;=&gt; 'a', (5 + 3) &lt;=&gt; (2 + 6), '' &lt;=&gt; NULL,NULL &lt;=&gt; NULL FROM dual;
++-----------+---------+-------------+---------------------+-------------+---------------+
+| 1 &lt;=&gt; '1' | 1 &lt;=&gt; 0 | 'a' &lt;=&gt; 'a' | (5 + 3) &lt;=&gt; (2 + 6) | '' &lt;=&gt; NULL | NULL &lt;=&gt; NULL |
++-----------+---------+-------------+---------------------+-------------+---------------+
+|         1 |       0 |           1 |                   1 |           0 |             1 |
++-----------+---------+-------------+---------------------+-------------+---------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#查询commission_pct等于0.40
+SELECT employee_id,commission_pct FROM employees WHERE commission_pct = 0.40;
+
+SELECT employee_id,commission_pct FROM employees WHERE commission_pct &lt;=&gt; 0.40;
+
+#如果把0.40改成 NULL 呢？
+</code></pre></div><p>可以看到，使用安全等于运算符时，两边的操作数的值都为NULL时，返回的结果为1而不是NULL，其他返回结果与等于运算符相同。</p> <p><strong>3．不等于运算符</strong>
+不等于运算符（&lt;&gt;和!=）用于判断两边的数字、字符串或者表达式的值是否不相等，如果不相等则返回1，相等则返回0。不等于运算符不能判断NULL值。如果两边的值有任意一个为NULL，或两边都为NULL，则结果为NULL。
+SQL语句示例如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 &lt;&gt; 1, 1 != 2, 'a' != 'b', (3+4) &lt;&gt; (2+6), 'a' != NULL, NULL &lt;&gt; NULL; 
++--------+--------+------------+----------------+-------------+--------------+
+| 1 &lt;&gt; 1 | 1 != 2 | 'a' != 'b' | (3+4) &lt;&gt; (2+6) | 'a' != NULL | NULL &lt;&gt; NULL |
++--------+--------+------------+----------------+-------------+--------------+
+|      0 |   1    |       1    |            1   |     NULL    |         NULL |
++--------+--------+------------+----------------+-------------+--------------+
+1 row in set (0.00 sec)
+</code></pre></div><p>此外，还有非符号类型的运算符：</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012105303219.png" alt="image-20211012105303219"></p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012105030527.png" alt="image-20211012105030527"></p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012105052456.png" alt="image-20211012105052456"></p> <p><strong>4. 空运算符</strong>
+空运算符（IS NULL或者ISNULL）判断一个值是否为NULL，如果为NULL则返回1，否则返回0。
+SQL语句示例如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT NULL IS NULL, ISNULL(NULL), ISNULL('a'), 1 IS NULL;
++--------------+--------------+-------------+-----------+
+| NULL IS NULL | ISNULL(NULL) | ISNULL('a') | 1 IS NULL |
++--------------+--------------+-------------+-----------+
+|            1 |            1 |           0 |         0 |
++--------------+--------------+-------------+-----------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#查询commission_pct等于NULL。比较如下的四种写法
+SELECT employee_id,commission_pct FROM employees WHERE commission_pct IS NULL;
+SELECT employee_id,commission_pct FROM employees WHERE commission_pct &lt;=&gt; NULL;
+SELECT employee_id,commission_pct FROM employees WHERE ISNULL(commission_pct);
+SELECT employee_id,commission_pct FROM employees WHERE commission_pct = NULL;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT last_name, manager_id
+FROM   employees
+WHERE  manager_id IS NULL;
+</code></pre></div><p><strong>5. 非空运算符</strong>
+非空运算符（IS NOT NULL）判断一个值是否不为NULL，如果不为NULL则返回1，否则返回0。
+SQL语句示例如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT NULL IS NOT NULL, 'a' IS NOT NULL,  1 IS NOT NULL; 
++------------------+-----------------+---------------+
+| NULL IS NOT NULL | 'a' IS NOT NULL | 1 IS NOT NULL |
++------------------+-----------------+---------------+
+|                0 |               1 |             1 |
++------------------+-----------------+---------------+
+1 row in set (0.01 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#查询commission_pct不等于NULL
+SELECT employee_id,commission_pct FROM employees WHERE commission_pct IS NOT NULL;
+SELECT employee_id,commission_pct FROM employees WHERE NOT commission_pct &lt;=&gt; NULL;
+SELECT employee_id,commission_pct FROM employees WHERE NOT ISNULL(commission_pct);
+</code></pre></div><p><strong>6. 最小值运算符</strong>
+语法格式为：LEAST(值1，值2，...，值n)。其中，“值n”表示参数列表中有n个值。在有两个或多个参数的情况下，返回最小值。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT LEAST (1,0,2), LEAST('b','a','c'), LEAST(1,NULL,2);
++---------------+--------------------+-----------------+
+| LEAST (1,0,2) | LEAST('b','a','c') | LEAST(1,NULL,2) |
++---------------+--------------------+-----------------+
+|       0       |        a           |      NULL       |
++---------------+--------------------+-----------------+
+1 row in set (0.00 sec)
+</code></pre></div><p>由结果可以看到，当参数是整数或者浮点数时，LEAST将返回其中最小的值；当参数为字符串时，返回字母表中顺序最靠前的字符；当比较值列表中有NULL时，不能判断大小，返回值为NULL。</p> <p><strong>7. 最大值运算符</strong>
+语法格式为：GREATEST(值1，值2，...，值n)。其中，n表示参数列表中有n个值。当有两个或多个参数时，返回值为最大值。假如任意一个自变量为NULL，则GREATEST()的返回值为NULL。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT GREATEST(1,0,2), GREATEST('b','a','c'), GREATEST(1,NULL,2);
++-----------------+-----------------------+--------------------+
+| GREATEST(1,0,2) | GREATEST('b','a','c') | GREATEST(1,NULL,2) |
++-----------------+-----------------------+--------------------+
+|               2 | c                     |               NULL |
++-----------------+-----------------------+--------------------+
+1 row in set (0.00 sec)
+</code></pre></div><p>由结果可以看到，当参数中是整数或者浮点数时，GREATEST将返回其中最大的值；当参数为字符串时，返回字母表中顺序最靠后的字符；当比较值列表中有NULL时，不能判断大小，返回值为NULL。</p> <p><strong>8. BETWEEN AND运算符</strong>
+BETWEEN运算符使用的格式通常为SELECT D FROM TABLE WHERE C BETWEEN A AND B，此时，当C大于或等于A，并且C小于或等于B时，结果为1，否则结果为0。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 BETWEEN 0 AND 1, 10 BETWEEN 11 AND 12, 'b' BETWEEN 'a' AND 'c';
++-------------------+----------------------+-------------------------+
+| 1 BETWEEN 0 AND 1 | 10 BETWEEN 11 AND 12 | 'b' BETWEEN 'a' AND 'c' |
++-------------------+----------------------+-------------------------+
+|                 1 |                    0 |                       1 |
++-------------------+----------------------+-------------------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT last_name, salary
+FROM   employees
+WHERE  salary BETWEEN 2500 AND 3500;
+</code></pre></div><p><strong>9. IN运算符</strong>
+IN运算符用于判断给定的值是否是IN列表中的一个值，如果是则返回1，否则返回0。如果给定的值为NULL，或者IN列表中存在NULL，则结果为NULL。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 'a' IN ('a','b','c'), 1 IN (2,3), NULL IN ('a','b'), 'a' IN ('a', NULL);
++----------------------+------------+-------------------+--------------------+
+| 'a' IN ('a','b','c') | 1 IN (2,3) | NULL IN ('a','b') | 'a' IN ('a', NULL) |
++----------------------+------------+-------------------+--------------------+
+|            1         |        0   |         NULL      |         1          |
++----------------------+------------+-------------------+--------------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT employee_id, last_name, salary, manager_id
+FROM   employees
+WHERE  manager_id IN (100, 101, 201);
+</code></pre></div><p><strong>10. NOT IN运算符</strong>
+NOT IN运算符用于判断给定的值是否不是IN列表中的一个值，如果不是IN列表中的一个值，则返回1，否则返回0。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 'a' NOT IN ('a','b','c'), 1 NOT IN (2,3);
++--------------------------+----------------+
+| 'a' NOT IN ('a','b','c') | 1 NOT IN (2,3) |
++--------------------------+----------------+
+|                 0        |            1   |
++--------------------------+----------------+
+1 row in set (0.00 sec)
+</code></pre></div><p><strong>11. LIKE运算符</strong>
+LIKE运算符主要用来匹配字符串，通常用于模糊匹配，如果满足条件则返回1，否则返回0。如果给定的值或者匹配条件为NULL，则返回结果为NULL。</p> <p>LIKE运算符通常使用如下通配符：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>“%”：匹配0个或多个字符。
+“_”：只能匹配一个字符。
+</code></pre></div><p>SQL语句示例如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT NULL LIKE 'abc', 'abc' LIKE NULL;  
++-----------------+-----------------+
+| NULL LIKE 'abc' | 'abc' LIKE NULL |
++-----------------+-----------------+
+|          NULL   |          NULL   |
++-----------------+-----------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT	first_name
+FROM 	employees
+WHERE	first_name LIKE 'S%';
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT last_name
+FROM   employees
+WHERE  last_name LIKE '_o%';
+</code></pre></div><p><strong>ESCAPE</strong></p> <ul><li>回避特殊符号的：<strong>使用转义符</strong>。例如：将[%]转为[$%]、[]转为[$]，然后再加上[ESCAPE‘$’]即可。</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>SELECT job_id
+FROM   jobs
+WHERE  job_id LIKE ‘IT\_%‘;
+</code></pre></div><ul><li>如果使用\表示转义，要省略ESCAPE。如果不是\，则要加上ESCAPE。</li></ul> <div class="language-mysql extra-class"><pre class="language-text"><code>SELECT job_id
+FROM   jobs
+WHERE  job_id LIKE ‘IT$_%‘ escape ‘$‘;
+</code></pre></div><p><strong>12. REGEXP运算符</strong></p> <p>REGEXP运算符用来匹配字符串，语法格式为：<code>expr REGEXP 匹配条件</code>。如果expr满足匹配条件，返回1；如果不满足，则返回0。若expr或匹配条件任意一个为NULL，则结果为NULL。</p> <p>REGEXP运算符在进行匹配时，常用的有下面几种通配符：</p> <div class="language- extra-class"><pre class="language-text"><code>（1）‘^’匹配以该字符后面的字符开头的字符串。
+（2）‘$’匹配以该字符前面的字符结尾的字符串。
+（3）‘.’匹配任何一个单字符。
+（4）“[...]”匹配在方括号内的任何字符。例如，“[abc]”匹配“a”或“b”或“c”。为了命名字符的范围，使用一个‘-’。“[a-z]”匹配任何字母，而“[0-9]”匹配任何数字。
+（5）‘*’匹配零个或多个在它前面的字符。例如，“x*”匹配任何数量的‘x’字符，“[0-9]*”匹配任何数量的数字，而“*”匹配任何数量的任何字符。
+</code></pre></div><p>SQL语句示例如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 'shkstart' REGEXP '^s', 'shkstart' REGEXP 't$', 'shkstart' REGEXP 'hk';
++------------------------+------------------------+-------------------------+
+| 'shkstart' REGEXP '^s' | 'shkstart' REGEXP 't$' | 'shkstart' REGEXP 'hk'  |
++------------------------+------------------------+-------------------------+
+|                      1 |                      1 |                       1 |
++------------------------+------------------------+-------------------------+
+1 row in set (0.01 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 'atguigu' REGEXP 'gu.gu', 'atguigu' REGEXP '[ab]';
++--------------------------+-------------------------+
+| 'atguigu' REGEXP 'gu.gu' | 'atguigu' REGEXP '[ab]' |
++--------------------------+-------------------------+
+|                        1 |                       1 |
++--------------------------+-------------------------+
+1 row in set (0.00 sec)
+</code></pre></div><h2 id="_3-逻辑运算符"><a href="#_3-逻辑运算符" class="header-anchor">#</a> 3. 逻辑运算符</h2> <p>逻辑运算符主要用来判断表达式的真假，在MySQL中，逻辑运算符的返回结果为1、0或者NULL。</p> <p>MySQL中支持4种逻辑运算符如下：</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012110241418.png" alt="image-20211012110241418"></p> <p><strong>1．逻辑非运算符</strong>
+逻辑非（NOT或!）运算符表示当给定的值为0时返回1；当给定的值为非0值时返回0；当给定的值为NULL时，返回NULL。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT NOT 1, NOT 0, NOT(1+1), NOT !1, NOT NULL;    
++-------+-------+----------+--------+----------+
+| NOT 1 | NOT 0 | NOT(1+1) | NOT !1 | NOT NULL |
++-------+-------+----------+--------+----------+
+|     0 |     1 |        0 |      1 |     NULL |
++-------+-------+----------+--------+----------+
+1 row in set, 1 warning (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT last_name, job_id
+FROM   employees
+WHERE  job_id NOT IN ('IT_PROG', 'ST_CLERK', 'SA_REP');
+</code></pre></div><p><strong>2．逻辑与运算符</strong>
+逻辑与（AND或&amp;&amp;）运算符是当给定的所有值均为非0值，并且都不为NULL时，返回1；当给定的一个值或者多个值为0时则返回0；否则返回NULL。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 AND -1, 0 AND 1, 0 AND NULL, 1 AND NULL;
++----------+---------+------------+------------+
+| 1 AND -1 | 0 AND 1 | 0 AND NULL | 1 AND NULL |
++----------+---------+------------+------------+
+|        1 |       0 |          0 |       NULL |
++----------+---------+------------+------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT employee_id, last_name, job_id, salary
+FROM   employees
+WHERE  salary &gt;=10000
+AND    job_id LIKE '%MAN%';
+</code></pre></div><p><strong>3．逻辑或运算符</strong>
+逻辑或（OR或||）运算符是当给定的值都不为NULL，并且任何一个值为非0值时，则返回1，否则返回0；当一个值为NULL，并且另一个值为非0值时，返回1，否则返回NULL；当两个值都为NULL时，返回NULL。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 OR -1, 1 OR 0, 1 OR NULL, 0 || NULL, NULL || NULL;     
++---------+--------+-----------+-----------+--------------+
+| 1 OR -1 | 1 OR 0 | 1 OR NULL | 0 || NULL | NULL || NULL |
++---------+--------+-----------+-----------+--------------+
+|       1 |      1 |         1 |    NULL   |       NULL   |
++---------+--------+-----------+-----------+--------------+
+1 row in set, 2 warnings (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>#查询基本薪资不在9000-12000之间的员工编号和基本薪资
+SELECT employee_id,salary FROM employees 
+WHERE NOT (salary &gt;= 9000 AND salary &lt;= 12000);
+
+SELECT employee_id,salary FROM employees 
+WHERE salary &lt;9000 OR salary &gt; 12000;
+
+SELECT employee_id,salary FROM employees 
+WHERE salary NOT BETWEEN 9000 AND 12000;
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>SELECT employee_id, last_name, job_id, salary
+FROM   employees
+WHERE  salary &gt;= 10000
+OR     job_id LIKE '%MAN%';
+</code></pre></div><blockquote><p>注意：</p> <p>OR可以和AND一起使用，但是在使用时要注意两者的优先级，由于AND的优先级高于OR，因此先对AND两边的操作数进行操作，再与OR中的操作数结合。</p></blockquote> <p><strong>4．逻辑异或运算符</strong>
+逻辑异或（XOR）运算符是当给定的值中任意一个值为NULL时，则返回NULL；如果两个非NULL的值都是0或者都不等于0时，则返回0；如果一个值为0，另一个值不为0时，则返回1。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 XOR -1, 1 XOR 0, 0 XOR 0, 1 XOR NULL, 1 XOR 1 XOR 1, 0 XOR 0 XOR 0;
++----------+---------+---------+------------+---------------+---------------+
+| 1 XOR -1 | 1 XOR 0 | 0 XOR 0 | 1 XOR NULL | 1 XOR 1 XOR 1 | 0 XOR 0 XOR 0 |
++----------+---------+---------+------------+---------------+---------------+
+|        0 |       1 |       0 |       NULL |             1 |             0 |
++----------+---------+---------+------------+---------------+---------------+
+1 row in set (0.00 sec)
+</code></pre></div><div class="language-mysql extra-class"><pre class="language-text"><code>select last_name,department_id,salary 
+from employees
+where department_id in (10,20) XOR salary &gt; 8000;
+</code></pre></div><h2 id="_4-位运算符"><a href="#_4-位运算符" class="header-anchor">#</a> 4. 位运算符</h2> <p>位运算符是在二进制数上进行计算的运算符。位运算符会先将操作数变成二进制数，然后进行位运算，最后将计算结果从二进制变回十进制数。</p> <p>MySQL支持的位运算符如下：</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012110511223.png" alt="image-20211012110511223"></p> <p><strong>1．按位与运算符</strong>
+按位与（&amp;）运算符将给定值对应的二进制数逐位进行逻辑与运算。当给定值对应的二进制位的数值都为1时，则该位返回1，否则返回0。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 &amp; 10, 20 &amp; 30;
++--------+---------+
+| 1 &amp; 10 | 20 &amp; 30 |
++--------+---------+
+|      0 |      20 |
++--------+---------+
+1 row in set (0.00 sec)
+</code></pre></div><p>1的二进制数为0001，10的二进制数为1010，所以1 &amp; 10的结果为0000，对应的十进制数为0。20的二进制数为10100，30的二进制数为11110，所以20 &amp; 30的结果为10100，对应的十进制数为20。</p> <p><strong>2. 按位或运算符</strong>
+按位或（|）运算符将给定的值对应的二进制数逐位进行逻辑或运算。当给定值对应的二进制位的数值有一个或两个为1时，则该位返回1，否则返回0。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 | 10, 20 | 30; 
++--------+---------+
+| 1 | 10 | 20 | 30 |
++--------+---------+
+|     11 |      30 |
++--------+---------+
+1 row in set (0.00 sec)
+</code></pre></div><p>1的二进制数为0001，10的二进制数为1010，所以1 | 10的结果为1011，对应的十进制数为11。20的二进制数为10100，30的二进制数为11110，所以20 | 30的结果为11110，对应的十进制数为30。</p> <p><strong>3. 按位异或运算符</strong>
+按位异或（^）运算符将给定的值对应的二进制数逐位进行逻辑异或运算。当给定值对应的二进制位的数值不同时，则该位返回1，否则返回0。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 ^ 10, 20 ^ 30; 
++--------+---------+
+| 1 ^ 10 | 20 ^ 30 |
++--------+---------+
+|     11 |      10 |
++--------+---------+
+1 row in set (0.00 sec)
+</code></pre></div><p>1的二进制数为0001，10的二进制数为1010，所以1 ^ 10的结果为1011，对应的十进制数为11。20的二进制数为10100，30的二进制数为11110，所以20 ^ 30的结果为01010，对应的十进制数为10。</p> <p>再举例：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 12 &amp; 5, 12 | 5,12 ^ 5 FROM DUAL;
++--------+--------+--------+
+| 12 &amp; 5 | 12 | 5 | 12 ^ 5 |
++--------+--------+--------+
+|      4 |     13 |      9 |
++--------+--------+--------+
+1 row in set (0.00 sec)
+</code></pre></div><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211023115738415.png" alt="image-20211023115738415" style="zoom:80%;"> <p><strong>4. 按位取反运算符</strong>
+按位取反（~）运算符将给定的值的二进制数逐位进行取反操作，即将1变为0，将0变为1。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 10 &amp; ~1;
++---------+
+| 10 &amp; ~1 |
++---------+
+|      10 |
++---------+
+1 row in set (0.00 sec)
+</code></pre></div><p>由于按位取反（~）运算符的优先级高于按位与（&amp;）运算符的优先级，所以10 &amp; ~1，首先，对数字1进行按位取反操作，结果除了最低位为0，其他位都为1，然后与10进行按位与操作，结果为10。</p> <p><strong>5. 按位右移运算符</strong>
+按位右移（&gt;&gt;）运算符将给定的值的二进制数的所有位右移指定的位数。右移指定的位数后，右边低位的数值被移出并丢弃，左边高位空出的位置用0补齐。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 &gt;&gt; 2, 4 &gt;&gt; 2;
++--------+--------+
+| 1 &gt;&gt; 2 | 4 &gt;&gt; 2 |
++--------+--------+
+|      0 |      1 |
++--------+--------+
+1 row in set (0.00 sec)
+</code></pre></div><p>1的二进制数为0000 0001，右移2位为0000 0000，对应的十进制数为0。4的二进制数为0000 0100，右移2位为0000 0001，对应的十进制数为1。</p> <p><strong>6. 按位左移运算符</strong>
+按位左移（&lt;&lt;）运算符将给定的值的二进制数的所有位左移指定的位数。左移指定的位数后，左边高位的数值被移出并丢弃，右边低位空出的位置用0补齐。</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT 1 &lt;&lt; 2, 4 &lt;&lt; 2;  
++--------+--------+
+| 1 &lt;&lt; 2 | 4 &lt;&lt; 2 |
++--------+--------+
+|      4 |     16 |
++--------+--------+
+1 row in set (0.00 sec)
+</code></pre></div><p>1的二进制数为0000 0001，左移两位为0000 0100，对应的十进制数为4。4的二进制数为0000 0100，左移两位为0001 0000，对应的十进制数为16。</p> <h2 id="_5-运算符的优先级"><a href="#_5-运算符的优先级" class="header-anchor">#</a> 5. 运算符的优先级</h2> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012111042395.png" alt="image-20211012111042395"></p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20211012110731059.png" alt="image-20211012110731059"></p> <p>数字编号越大，优先级越高，优先级高的运算符先进行计算。可以看到，赋值运算符的优先级最低，使用“()”括起来的表达式的优先级最高。</p> <h2 id="拓展-使用正则表达式查询"><a href="#拓展-使用正则表达式查询" class="header-anchor">#</a> 拓展：使用正则表达式查询</h2> <p>正则表达式通常被用来检索或替换那些符合某个模式的文本内容，根据指定的匹配模式匹配文本中符合要求的特殊字符串。例如，从一个文本文件中提取电话号码，查找一篇文章中重复的单词或者替换用户输入的某些敏感词语等，这些地方都可以使用正则表达式。正则表达式强大而且灵活，可以应用于非常复杂的查询。</p> <p>MySQL中使用REGEXP关键字指定正则表达式的字符匹配模式。下表列出了REGEXP操作符中常用字符匹配列表。</p> <p><img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20210926151249943.png" alt="image-20210926151249943"></p> <p><strong>1. 查询以特定字符或字符串开头的记录</strong>
+字符‘^’匹配以特定字符或者字符串开头的文本。</p> <p>在fruits表中，查询f_name字段以字母‘b’开头的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP '^b';
+</code></pre></div><p><strong>2. 查询以特定字符或字符串结尾的记录</strong>
+字符‘$’匹配以特定字符或者字符串结尾的文本。</p> <p>在fruits表中，查询f_name字段以字母‘y’结尾的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP 'y$';
+</code></pre></div><p><strong>3. 用符号&quot;.&quot;来替代字符串中的任意一个字符</strong>
+字符‘.’匹配任意一个字符。
+在fruits表中，查询f_name字段值包含字母‘a’与‘g’且两个字母之间只有一个字母的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP 'a.g';
+</code></pre></div><p><strong>4. 使用&quot;*&quot;和&quot;+&quot;来匹配多个字符</strong>
+星号‘*’匹配前面的字符任意多次，包括0次。加号‘+’匹配前面的字符至少一次。</p> <p>在fruits表中，查询f_name字段值以字母‘b’开头且‘b’后面出现字母‘a’的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP '^ba*';
+</code></pre></div><p>在fruits表中，查询f_name字段值以字母‘b’开头且‘b’后面出现字母‘a’至少一次的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP '^ba+';
+</code></pre></div><p><strong>5. 匹配指定字符串</strong>
+正则表达式可以匹配指定字符串，只要这个字符串在查询文本中即可，如要匹配多个字符串，多个字符串之间使用分隔符‘|’隔开。</p> <p>在fruits表中，查询f_name字段值包含字符串“on”的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP 'on';
+</code></pre></div><p>在fruits表中，查询f_name字段值包含字符串“on”或者“ap”的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP 'on|ap';
+</code></pre></div><p>之前介绍过，LIKE运算符也可以匹配指定的字符串，但与REGEXP不同，LIKE匹配的字符串如果在文本中间出现，则找不到它，相应的行也不会返回。REGEXP在文本内进行匹配，如果被匹配的字符串在文本中出现，REGEXP将会找到它，相应的行也会被返回。对比结果如下所示。</p> <p>在fruits表中，使用LIKE运算符查询f_name字段值为“on”的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name like 'on';
+Empty set(0.00 sec)
+</code></pre></div><p><strong>6. 匹配指定字符中的任意一个</strong>
+方括号“[]”指定一个字符集合，只匹配其中任何一个字符，即为所查找的文本。</p> <p>在fruits表中，查找f_name字段中包含字母‘o’或者‘t’的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP '[ot]';
+</code></pre></div><p>在fruits表中，查询s_id字段中包含4、5或者6的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE s_id REGEXP '[456]';
+</code></pre></div><p><strong>7. 匹配指定字符以外的字符</strong> <code>“[^字符集合]”</code>匹配不在指定集合中的任何字符。</p> <p>在fruits表中，查询f_id字段中包含字母a~e和数字1~2以外字符的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_id REGEXP '[^a-e1-2]';
+</code></pre></div><p><strong>8. 使用{n,}或者{n,m}来指定字符串连续出现的次数</strong>
+“字符串{n,}”表示至少匹配n次前面的字符；“字符串{n,m}”表示匹配前面的字符串不少于n次，不多于m次。例如，a{2,}表示字母a连续出现至少2次，也可以大于2次；a{2,4}表示字母a连续出现最少2次，最多不能超过4次。</p> <p>在fruits表中，查询f_name字段值出现字母‘x’至少2次的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP 'x{2,}';
+</code></pre></div><p>在fruits表中，查询f_name字段值出现字符串“ba”最少1次、最多3次的记录，SQL语句如下：</p> <div class="language-mysql extra-class"><pre class="language-text"><code>mysql&gt; SELECT * FROM fruits WHERE f_name REGEXP 'ba{1,3}';
+</code></pre></div></div></div>  <div class="page-edit"><!----> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2023/05/18, 14:27:43</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/blogs/pages/1e92f0/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">第03章_基本的SELECT语句</div></a> <a href="/blogs/pages/f60350/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">第05章_排序与分页</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blogs/pages/1e92f0/" class="prev">第03章_基本的SELECT语句</a></span> <span class="next"><a href="/blogs/pages/f60350/">第05章_排序与分页</a>→
+      </span></p></div></div></div> <!----></main></div> <div class="footer"><div class="icons"><a href="mailto:2942894660@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/gaoziman" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2023-2023
+    <span>Cisyam | MIT License</span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/blogs/assets/js/app.6703720a.js" defer></script><script src="/blogs/assets/js/2.2891cb31.js" defer></script><script src="/blogs/assets/js/32.d2b68837.js" defer></script>
+  </body>
+</html>
